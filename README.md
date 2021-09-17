@@ -37,4 +37,4 @@ series = {ESEC/FSE 2020}
 [DOI Link](https://doi.org/10.1145/3368089.3409738)
 
 ## Video
-You can watch a OSDI'20 presentation video [here](https://www.youtube.com/watch?v=MwIqCkxb6Zs)
+You can watch a FSE'20 presentation video [here](https://www.youtube.com/watch?v=MwIqCkxb6Zs)
