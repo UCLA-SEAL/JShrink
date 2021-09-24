@@ -1,0 +1,39 @@
+public class edu.ucla.cs.onr.testprograms.classcollapser.field.original.C extends edu.ucla.cs.onr.testprograms.classcollapser.field.original.A
+{
+    public int c;
+
+    public void <init>(int, int)
+    {
+        edu.ucla.cs.onr.testprograms.classcollapser.field.original.C r0;
+        int i0, i1;
+
+        r0 := @this: edu.ucla.cs.onr.testprograms.classcollapser.field.original.C;
+        i0 := @parameter0: int;
+        i1 := @parameter1: int;
+        specialinvoke r0.<edu.ucla.cs.onr.testprograms.classcollapser.field.original.A: void <init>()>();
+        r0.<edu.ucla.cs.onr.testprograms.classcollapser.field.original.C: int a> = i0;
+        r0.<edu.ucla.cs.onr.testprograms.classcollapser.field.original.C: int c> = i1;
+        return;
+    }
+
+    public void foo()
+    {
+        edu.ucla.cs.onr.testprograms.classcollapser.field.original.C r0;
+        java.io.PrintStream $r1;
+        java.lang.Object[] $r2;
+        int $i0, $i1;
+        java.lang.Integer $r3, $r4;
+
+        r0 := @this: edu.ucla.cs.onr.testprograms.classcollapser.field.original.C;
+        $r1 = <java.lang.System: java.io.PrintStream out>;
+        $r2 = newarray (java.lang.Object)[2];
+        $i0 = r0.<edu.ucla.cs.onr.testprograms.classcollapser.field.original.C: int a>;
+        $r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0);
+        $r2[0] = $r3;
+        $i1 = r0.<edu.ucla.cs.onr.testprograms.classcollapser.field.original.C: int c>;
+        $r4 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i1);
+        $r2[1] = $r4;
+        virtualinvoke $r1.<java.io.PrintStream: java.io.PrintStream printf(java.lang.String,java.lang.Object[])>("class B, a = %d, c = %d\n", $r2);
+        return;
+    }
+}

@@ -1,0 +1,19 @@
+<processor>
+    <!-- Add non-existing property -->
+    <add>
+        <name>teste-property</name>
+        <value>test-value</value>
+        <before>property1.value</before>
+    </add>
+
+    <!-- Modify a property value -->  
+    <modify>
+        <name>property1.value</name>
+        <value>modified-value</value>
+    </modify>
+
+    <!-- Remove a property -->    
+    <remove>
+        <name>property3.value</name>
+    </remove>
+</processor>

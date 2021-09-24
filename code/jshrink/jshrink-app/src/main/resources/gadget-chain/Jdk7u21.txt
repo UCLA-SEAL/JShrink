@@ -1,0 +1,5 @@
+java.lang.reflect.InvocationHandler
+java.util.HashMap
+java.util.LinkedHashSet
+javax.xml.transform.Templates
+java.lang.reflect.Proxy

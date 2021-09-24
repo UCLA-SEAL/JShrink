@@ -1,0 +1,26 @@
+CHANGE NOTES
+
+== 1.3.0
+* Pacing support (Animoto Platform 1.4)
+
+== 1.2.4
+* Cover image support (Animoto Platform 1.2)
+
+== 1.2.3
+* Fix the API's handling of international characters
+
+== 1.2.2
+
+* Performance improvement: the API now will use only Basic authentication, rather than trying without authentication first (and retrying with Basic upon receiving a 401 response)
+* The API now deals with unexpected status codes in a more robust fashion
+* The API now supports deleting storyboards.
+* The API now supports bundling/unbundling storyboards.
+
+== 1.2.1
+
+* Minor update to reference official domain of platform.animoto.com.
+
+== 1.2
+
+* Resource metadata is now represented as a dedicated model. Before it was a simple Map<String, String>. The model contains a list of Songs, Visuals, and an inner model for RenderingParameters.
+* This is a breaking change to all previous clients that used the Metadata object on BaseResource.

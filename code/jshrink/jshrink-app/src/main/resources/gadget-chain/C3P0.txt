@@ -1,0 +1,11 @@
+java.io.PrintWriter
+java.sql.SQLException
+java.sql.SQLFeatureNotSupportedException
+java.util.logging.Logger
+javax.naming.NamingException
+javax.naming.Reference
+javax.naming.Referenceable
+javax.sql.ConnectionPoolDataSource
+javax.sql.PooledConnection
+com.mchange.v2.c3p0.PoolBackedDataSource
+com.mchange.v2.c3p0.impl.PoolBackedDataSourceBase

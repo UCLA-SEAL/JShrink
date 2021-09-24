@@ -1,0 +1,10 @@
+com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl
+java.lang.reflect.Method
+org.springframework.aop.support.AopUtils
+org.springframework.aop.framework.JdkDynamicAopProxy
+java.lang.reflect.Method
+org.apache.commons.beanutils.PropertyUtilsBean
+org.apache.commons.beanutils.PropertyUtils
+net.sf.json.JSONObject
+javax.management.openmbean.TabularDataSupport
+java.util.HashMap

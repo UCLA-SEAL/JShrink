@@ -1,0 +1,9 @@
+java.lang.reflect.InvocationHandler
+java.util.HashMap
+java.util.Map
+javax.xml.transform.Templates
+org.apache.commons.collections.Transformer
+org.apache.commons.collections.functors.ChainedTransformer
+org.apache.commons.collections.functors.ConstantTransformer
+org.apache.commons.collections.functors.InstantiateTransformer
+org.apache.commons.collections.map.LazyMap

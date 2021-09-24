@@ -1,0 +1,44 @@
+public class edu.ucla.cs.onr.testprograms.classcollapser.field.original.A extends java.lang.Object
+{
+    public int a;
+
+    public void <init>()
+    {
+        edu.ucla.cs.onr.testprograms.classcollapser.field.original.A r0;
+
+        r0 := @this: edu.ucla.cs.onr.testprograms.classcollapser.field.original.A;
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+        r0.<edu.ucla.cs.onr.testprograms.classcollapser.field.original.A: int a> = 0;
+        return;
+    }
+
+    public void <init>(int)
+    {
+        edu.ucla.cs.onr.testprograms.classcollapser.field.original.A r0;
+        int i0;
+
+        r0 := @this: edu.ucla.cs.onr.testprograms.classcollapser.field.original.A;
+        i0 := @parameter0: int;
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+        r0.<edu.ucla.cs.onr.testprograms.classcollapser.field.original.A: int a> = i0;
+        return;
+    }
+
+    public void foo()
+    {
+        edu.ucla.cs.onr.testprograms.classcollapser.field.original.A r0;
+        java.io.PrintStream $r1;
+        java.lang.Object[] $r2;
+        int $i0;
+        java.lang.Integer $r3;
+
+        r0 := @this: edu.ucla.cs.onr.testprograms.classcollapser.field.original.A;
+        $r1 = <java.lang.System: java.io.PrintStream out>;
+        $r2 = newarray (java.lang.Object)[1];
+        $i0 = r0.<edu.ucla.cs.onr.testprograms.classcollapser.field.original.A: int a>;
+        $r3 = staticinvoke <java.lang.Integer: java.lang.Integer valueOf(int)>($i0);
+        $r2[0] = $r3;
+        virtualinvoke $r1.<java.io.PrintStream: java.io.PrintStream printf(java.lang.String,java.lang.Object[])>("class A, a = %d\n", $r2);
+        return;
+    }
+}

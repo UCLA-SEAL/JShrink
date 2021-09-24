@@ -1,0 +1,11 @@
+org.python.core.PyObject
+org.python.core.PyBytecode
+org.python.core.PyFunction
+org.python.core.PyStringMap
+org.python.core.PyString
+java.math.BigInteger
+java.io.File
+java.lang.reflect.Proxy
+java.util.Arrays
+java.util.Comparator
+java.util.PriorityQueue

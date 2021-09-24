@@ -1,0 +1,7 @@
+bsh.Interpreter
+bsh.XThis
+java.lang.reflect.InvocationHandler
+java.lang.reflect.Proxy
+java.util.Arrays
+java.util.Comparator
+java.util.PriorityQueue

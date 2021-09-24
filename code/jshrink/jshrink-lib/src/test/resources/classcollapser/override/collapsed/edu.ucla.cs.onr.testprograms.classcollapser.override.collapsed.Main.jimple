@@ -1,0 +1,29 @@
+public class edu.ucla.cs.onr.testprograms.classcollapser.override.collapsed.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        edu.ucla.cs.onr.testprograms.classcollapser.override.collapsed.Main r0;
+
+        r0 := @this: edu.ucla.cs.onr.testprograms.classcollapser.override.collapsed.Main;
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] r0;
+        edu.ucla.cs.onr.testprograms.classcollapser.override.collapsed.A $r1, r2, r3, $r4;
+
+        r0 := @parameter0: java.lang.String[];
+        $r1 = new edu.ucla.cs.onr.testprograms.classcollapser.override.collapsed.A;
+        specialinvoke $r1.<edu.ucla.cs.onr.testprograms.classcollapser.override.collapsed.A: void <init>()>();
+        r2 = $r1;
+        virtualinvoke r2.<edu.ucla.cs.onr.testprograms.classcollapser.override.collapsed.A: void foo()>();
+        $r4 = new edu.ucla.cs.onr.testprograms.classcollapser.override.collapsed.A;
+        specialinvoke $r4.<edu.ucla.cs.onr.testprograms.classcollapser.override.collapsed.A: void <init>()>();
+        r3 = $r4;
+        virtualinvoke r3.<edu.ucla.cs.onr.testprograms.classcollapser.override.collapsed.A: void foo()>();
+        return;
+    }
+}

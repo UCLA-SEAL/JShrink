@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<project name="example-ant-processing" default="process" basedir=".">
+
+	<property name="PLUGIN_HOME" value="../../" />
+	
+	<!-- We use the value of this property to tranform my-prop-config.properties -->
+	<property name="project.version" value="1.0" />
+	
+	<taskdef name="config-processor"
+			 classname="com.google.code.configprocessor.ant.ConfigProcessorTask">
+		<classpath>
+			<pathelement location="${PLUGIN_HOME}/lib/maven-config-processor-plugin.jar" />
+			<pathelement location="${PLUGIN_HOME}/lib/xstream.jar" />
+			<pathelement location="${PLUGIN_HOME}/lib/xpp3_min.jar" />
+			<pathelement location="${PLUGIN_HOME}/lib/commons-lang.jar" />
+			<pathelement location="${PLUGIN_HOME}/lib/xercesImpl.jar" />
+			<pathelement location="${PLUGIN_HOME}/lib/plexus-container-default.jar" />
+		</classpath>
+	</taskdef>
+
+	<target name="process">
+		<config-processor outputdirectory="target">
+
+			<namespacecontext prefix="s" url="http://www.springframework.org/schema/beans" />
+
+			<transformation input="config/my-prop-config.properties"
+							output="processed/my-prop-config.properties"
+							config="my-prop-config-processing.xml" />
+
+			<transformation input="config/my-xml-config.xml"
+							output="processed/my-xml-config.xml"
+							config="my-xml-config-processing.xml" />
+			
+		</config-processor>
+	</target>
+
+</project>

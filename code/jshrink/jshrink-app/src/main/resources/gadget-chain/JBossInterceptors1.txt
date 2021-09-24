@@ -1,0 +1,15 @@
+com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl
+org.jboss.interceptor.builder.InterceptionModelBuilder
+org.jboss.interceptor.builder.MethodReference
+org.jboss.interceptor.proxy.DefaultInvocationContextFactory
+org.jboss.interceptor.proxy.InterceptorMethodHandler
+org.jboss.interceptor.reader.ClassMetadataInterceptorReference
+org.jboss.interceptor.reader.DefaultMethodMetadata
+org.jboss.interceptor.reader.ReflectiveClassMetadata
+org.jboss.interceptor.reader.SimpleInterceptorMetadata
+org.jboss.interceptor.spi.instance.InterceptorInstantiator
+org.jboss.interceptor.spi.metadata.InterceptorReference
+org.jboss.interceptor.spi.metadata.MethodMetadata
+org.jboss.interceptor.spi.model.InterceptionModel
+org.jboss.interceptor.spi.model.InterceptionType
+java.lang.reflect.Constructor

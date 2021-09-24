@@ -1,0 +1,87 @@
+<processor>
+    <!-- Add non-existing property -->
+    <add>
+        <value>
+            <![CDATA[
+                <test-property>test-value</test-property>
+            ]]>
+        </value>
+        <after>/root/property3</after>
+    </add>
+
+    <!-- Modify a property value -->  
+    <modify>
+        <name>/root/property1</name>
+        <value>
+            <![CDATA[
+                <modified-property1>modified-value</modified-property1>
+            ]]>
+        </value>
+    </modify>
+
+    <!-- Remove a property -->    
+    <remove>
+        <name>/root/property2</name>
+    </remove>
+    
+    <!-- Comment a property -->
+    <comment>
+        <name>property-to-comment</name>
+    </comment>
+
+    <!-- Uncomment a property -->
+    <uncomment>
+        <name>property-to-uncomment</name>
+    </uncomment>
+
+	<!-- Find/Replace -->
+	<modify>
+		<!-- Matches e-mail addresses -->
+		<find>[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]+</find>
+		<replace>my-email@server.com</replace>
+		<flags>CASE_INSENSITIVE,COMMENTS</flags>
+	</modify>
+
+	<add>
+		<after>last-property</after>
+		<file>${filename-to-resolve}</file>
+	</add>
+
+	<add>
+		<inside>/root/property4</inside>
+		<file ignore-root="false">src/etc/my-file.xml</file>
+	</add>
+
+	<add>
+		<inside>/root</inside>
+		<file>src/assembly/file.xml</file>
+		<actions>
+			<add>
+				<inside>/sub-root</inside>
+				<file>src/assemble/sub-file.xml</file>
+				<actions>
+					<modify>
+						<name>/sub-tag/@att</name>
+						<value>new-value</value>
+					</modify>
+					<remove>
+						<name>/sub-tag/nothing</name>
+					</remove>
+				</actions>
+			</add>
+			<modify>
+				<name>/tag/@att</name>
+				<value>new-value</value>
+			</modify>
+			<remove>
+				<name>/tag/nothing</name>
+			</remove>
+		</actions>
+	</add>
+
+    <add>
+        <name>first-property</name>
+        <value>value-first-property</value>
+        <first />
+    </add>
+</processor>

@@ -1,0 +1,10 @@
+<module>
+    <stylesheet src="gwt-cal-apple.css"/>
+
+    <replace-with class="com.bradrydzewski.gwt.calendar.theme.ical.client.ICalMonthViewStyleManager">
+        <when-type-is class="com.bradrydzewski.gwt.calendar.client.monthview.MonthViewStyleManager"/>
+    </replace-with>
+    <replace-with class="com.bradrydzewski.gwt.calendar.theme.ical.client.ICalDayViewStyleManager">
+        <when-type-is class="com.bradrydzewski.gwt.calendar.client.dayview.DayViewStyleManager"/>
+    </replace-with>
+</module>

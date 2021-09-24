@@ -1,0 +1,99 @@
+Classfile /Users/zonghengma/Documents/UCLA/capstone_new/call-graph-analysis/reachability-analysis/src/test/resources/classcollapser/ldc/Main.class
+  Last modified Jan 10, 2019; size 604 bytes
+  MD5 checksum cec1b3805975ff97eb3672d868a4b071
+  Compiled from "Main.java"
+public class Main
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #11.#22        // java/lang/Object."<init>":()V
+   #2 = Class              #23            // B
+   #3 = Methodref          #2.#22         // B."<init>":()V
+   #4 = Methodref          #11.#24        // java/lang/Object.getClass:()Ljava/lang/Class;
+   #5 = Methodref          #11.#25        // java/lang/Object.equals:(Ljava/lang/Object;)Z
+   #6 = Fieldref           #26.#27        // java/lang/System.out:Ljava/io/PrintStream;
+   #7 = String             #28            // correct!
+   #8 = Methodref          #29.#30        // java/io/PrintStream.println:(Ljava/lang/String;)V
+   #9 = String             #31            // error occured
+  #10 = Class              #32            // Main
+  #11 = Class              #33            // java/lang/Object
+  #12 = Utf8               <init>
+  #13 = Utf8               ()V
+  #14 = Utf8               Code
+  #15 = Utf8               LineNumberTable
+  #16 = Utf8               main
+  #17 = Utf8               ([Ljava/lang/String;)V
+  #18 = Utf8               StackMapTable
+  #19 = Class              #23            // B
+  #20 = Utf8               SourceFile
+  #21 = Utf8               Main.java
+  #22 = NameAndType        #12:#13        // "<init>":()V
+  #23 = Utf8               B
+  #24 = NameAndType        #34:#35        // getClass:()Ljava/lang/Class;
+  #25 = NameAndType        #36:#37        // equals:(Ljava/lang/Object;)Z
+  #26 = Class              #38            // java/lang/System
+  #27 = NameAndType        #39:#40        // out:Ljava/io/PrintStream;
+  #28 = Utf8               correct!
+  #29 = Class              #41            // java/io/PrintStream
+  #30 = NameAndType        #42:#43        // println:(Ljava/lang/String;)V
+  #31 = Utf8               error occured
+  #32 = Utf8               Main
+  #33 = Utf8               java/lang/Object
+  #34 = Utf8               getClass
+  #35 = Utf8               ()Ljava/lang/Class;
+  #36 = Utf8               equals
+  #37 = Utf8               (Ljava/lang/Object;)Z
+  #38 = Utf8               java/lang/System
+  #39 = Utf8               out
+  #40 = Utf8               Ljava/io/PrintStream;
+  #41 = Utf8               java/io/PrintStream
+  #42 = Utf8               println
+  #43 = Utf8               (Ljava/lang/String;)V
+{
+  public Main();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 1: 0
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=2, args_size=1
+         0: new           #2                  // class B
+         3: dup
+         4: invokespecial #3                  // Method B."<init>":()V
+         7: astore_1
+         8: aload_1
+         9: invokevirtual #4                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        12: ldc           #2                  // class B
+        14: invokevirtual #5                  // Method java/lang/Object.equals:(Ljava/lang/Object;)Z
+        17: ifeq          31
+        20: getstatic     #6                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        23: ldc           #7                  // String correct!
+        25: invokevirtual #8                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        28: goto          39
+        31: getstatic     #6                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        34: ldc           #9                  // String error occured
+        36: invokevirtual #8                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        39: return
+      LineNumberTable:
+        line 3: 0
+        line 4: 8
+        line 5: 20
+        line 7: 31
+        line 9: 39
+      StackMapTable: number_of_entries = 2
+        frame_type = 252 /* append */
+          offset_delta = 31
+          locals = [ class B ]
+        frame_type = 7 /* same */
+}
+SourceFile: "Main.java"

@@ -1,0 +1,116 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Bukkit 1.7.10-R0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ bukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/Bukkit_Bukkit/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ bukkit ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ bukkit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/Bukkit_Bukkit/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ bukkit ---
+[INFO] Compiling 47 source files to /media/troy/Disk2/ONR/BigQuery/sample-projects/Bukkit_Bukkit/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ bukkit ---
+[INFO] Surefire report directory: /media/troy/Disk2/ONR/BigQuery/sample-projects/Bukkit_Bukkit/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.bukkit.CropStateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running org.bukkit.EffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.WorldTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.metadata.FixedMetadataValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.metadata.MetadataValueAdapterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.metadata.MetadataStoreTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.bukkit.metadata.MetadataConversionTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.bukkit.metadata.LazyMetadataValueTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.LocationTest
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+Running org.bukkit.util.StringUtilStartsWithTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.util.StringUtilTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.util.io.BukkitObjectStreamTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.076 sec
+Running org.bukkit.CoalTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.ColorTest
+Tests run: 52, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec
+Running org.bukkit.GameModeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.DifficultyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.InstrumentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.plugin.TimedRegisteredListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.plugin.messaging.StandardMessengerTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 sec
+Running org.bukkit.plugin.PluginManagerTest
+Jul 08, 2018 12:12:13 PM org.bukkit.Bukkit setServer
+INFO: This server is running TestServer version Version_null (Implementing API version BukkitVersion_null)
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 sec
+Running org.bukkit.conversations.ConversationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.bukkit.conversations.ValidatingPromptTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.bukkit.conversations.ConversationContextTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.MaterialTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Running org.bukkit.ArtTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.bukkit.configuration.MemorySectionTest
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.bukkit.configuration.MemoryConfigurationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.configuration.file.YamlConfigurationTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+Running org.bukkit.NoteTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.bukkit.EntityEffectTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.ChatColorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.bukkit.ChatPaginatorTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.bukkit.GrassSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.bukkit.TreeSpeciesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.DyeColorTest
+Tests run: 80, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.bukkit.event.PlayerChatTabCompleteEventTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.bukkit.BukkitMirrorTest
+Tests run: 475, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec
+Running org.bukkit.potion.PotionTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 906, Failures: 0, Errors: 0, Skipped: 3
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.166s
+[INFO] Finished at: Sun Jul 08 12:12:13 PDT 2018
+[INFO] Final Memory: 16M/293M
+[INFO] ------------------------------------------------------------------------

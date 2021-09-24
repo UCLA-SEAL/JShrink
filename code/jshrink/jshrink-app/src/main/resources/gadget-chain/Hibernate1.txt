@@ -1,0 +1,17 @@
+java.lang.reflect.Array
+java.lang.reflect.Constructor
+java.lang.reflect.InvocationTargetException
+java.lang.reflect.Method
+java.util.Map
+java.util.HashMap
+org.hibernate.engine.spi.TypedValue
+org.hibernate.tuple.component.AbstractComponentTuplizer
+org.hibernate.tuple.component.PojoComponentTuplizer
+org.hibernate.type.AbstractType
+org.hibernate.type.ComponentType
+org.hibernate.type.Type
+org.hibernate.EntityMode
+org.hibernate.property.access.spi.GetterMethodImpl
+org.hibernate.engine.spi.TypedValue$1
+org.hibernate.internal.util.ValueHolder
+org.hibernate.engine.spi.TypedValue.

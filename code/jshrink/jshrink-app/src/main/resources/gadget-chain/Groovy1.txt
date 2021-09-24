@@ -1,0 +1,4 @@
+java.lang.reflect.InvocationHandler
+java.util.Map
+org.codehaus.groovy.runtime.ConvertedClosure
+org.codehaus.groovy.runtime.MethodClosure

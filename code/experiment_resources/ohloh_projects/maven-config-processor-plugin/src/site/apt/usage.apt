@@ -1,0 +1,43 @@
+ ------
+ Usage
+ ------
+ Leandro Aparecido
+ ------
+ 2009-02-10
+ ------
+
+Usage
+
+ The Config Processor Plugin generates modified configuration files based on simple rules.
+ It is useful when you need to generate different configurations for different enviroments
+ but doesn't want to duplicate the files. Using this plugin you keep the original file and
+ a rules configuration file defining changes to be made.
+ The plugin can process properties and xml files using a simple specialized syntax.
+ 
+ The following examples describe the basic usage of the Plugin.
+
+* Generate modified configuration files
+
+ To generate modified files, you must configure the following in the \<build\> section of your pom:
+
++-----+
+<project>
+  ...
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.google.code.maven-config-processor-plugin</groupId>
+        <artifactId>maven-config-processor-plugin</artifactId>
+        <configuration>
+        ...
+        </configuration>
+      </plugin>
+    </plugins>
+    ...
+  </build>
+  ...
+</project>
++-----+
+
+ When you execute <<<mvn config-processor:process>>>, the plugin configuration files will be read
+ and the processed files will be generated on the specified directories.

@@ -1,0 +1,13 @@
+<root>
+    <property1>value1</property1>
+    <property2></property2>
+    <property3 attribute="value3">value3</property3>
+    <property4 attribute="value4">value4</property4>
+    <property5>
+        <nested1 a="1"></nested1>
+    </property5>
+    <property6 a="test@test.com">
+    	<nested2>test@test.com</nested2>
+    </property6>
+    <!-- This email will be modified too: test@test.com -->
+</root>

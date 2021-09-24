@@ -1,0 +1,220 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] OkHttp (Parent)
+[INFO] OkHttp
+[INFO] OkHttp test support classes
+[INFO] MockWebServer
+[INFO] OkHttp URLConnection
+[INFO] OkHttp Logging Interceptor
+[INFO] OkHttp Tests
+[INFO] OkHttp Android Platform Support
+[INFO] OkHttp Apache HttpClient
+[INFO] OkHttp Server-Sent Events
+[INFO] OkHttp DNS over HTTPS
+[INFO] OkCurl
+[INFO] Samples (Parent)
+[INFO] Sample: Guide
+[INFO] Sample: Crawler
+[INFO] Sample: Simple Client
+[INFO] Sample: Slack
+[INFO] Sample: Static Server
+[INFO] Sample: UNIX domain sockets
+[INFO] Benchmarks
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp (Parent) 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ parent ---
+[INFO] No dependencies found.
+[INFO] Dependencies classpath:
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.4/maven-javadoc-plugin-2.10.4.pom
+1/16 KB   5/16 KB   9/16 KB   13/16 KB   16/16 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.4/maven-javadoc-plugin-2.10.4.pom (16 KB at 170.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.4/maven-javadoc-plugin-2.10.4.jar
+1/406 KB   5/406 KB   9/406 KB   11/406 KB   15/406 KB   19/406 KB   23/406 KB   27/406 KB   31/406 KB   33/406 KB   37/406 KB   41/406 KB   45/406 KB   49/406 KB   51/406 KB   55/406 KB   56/406 KB   60/406 KB   64/406 KB   68/406 KB   72/406 KB   75/406 KB   79/406 KB   83/406 KB   87/406 KB   91/406 KB   95/406 KB   97/406 KB   101/406 KB   105/406 KB   109/406 KB   113/406 KB   116/406 KB   120/406 KB   124/406 KB   128/406 KB   131/406 KB   134/406 KB   138/406 KB   142/406 KB   146/406 KB   150/406 KB   152/406 KB   156/406 KB   160/406 KB   164/406 KB   168/406 KB   172/406 KB   175/406 KB   179/406 KB   183/406 KB   187/406 KB   191/406 KB   195/406 KB   195/406 KB   199/406 KB   200/406 KB   204/406 KB   208/406 KB   212/406 KB   216/406 KB   220/406 KB   222/406 KB   226/406 KB   230/406 KB   234/406 KB   236/406 KB   238/406 KB   239/406 KB   243/406 KB   247/406 KB   251/406 KB   255/406 KB   259/406 KB   263/406 KB   267/406 KB   271/406 KB   275/406 KB   279/406 KB   283/406 KB   287/406 KB   289/406 KB   293/406 KB   297/406 KB   301/406 KB   305/406 KB   309/406 KB   313/406 KB   317/406 KB   321/406 KB   325/406 KB   329/406 KB   333/406 KB   337/406 KB   341/406 KB   345/406 KB   346/406 KB   350/406 KB   354/406 KB   358/406 KB   362/406 KB   366/406 KB   369/406 KB   373/406 KB   377/406 KB   381/406 KB   385/406 KB   389/406 KB   389/406 KB   393/406 KB   397/406 KB   401/406 KB   405/406 KB   406/406 KB                Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.4/maven-javadoc-plugin-2.10.4.jar (406 KB at 1258.3 KB/sec)
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ okhttp ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/google/android/android/4.1.1.4/android-4.1.1.4.jar:/media/troy/Disk2/ONR/maven/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/media/troy/Disk2/ONR/maven/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/media/troy/Disk2/ONR/maven/repository/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar:/media/troy/Disk2/ONR/maven/repository/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar:/media/troy/Disk2/ONR/maven/repository/org/conscrypt/conscrypt-openjdk-uber/1.1.3/conscrypt-openjdk-uber-1.1.3.jar:/media/troy/Disk2/ONR/maven/repository/org/json/json/20080701/json-20080701.jar:/media/troy/Disk2/ONR/maven/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar:/media/troy/Disk2/ONR/maven/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar:/media/troy/Disk2/ONR/maven/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp test support classes 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ okhttp-testing-support ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building MockWebServer 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ mockwebserver ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp-testing-support/3.11.0-SNAPSHOT/okhttp-testing-support-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp URLConnection 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ okhttp-urlconnection ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/mockwebserver/3.11.0-SNAPSHOT/mockwebserver-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp-testing-support/3.11.0-SNAPSHOT/okhttp-testing-support-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/codehaus/mojo/animal-sniffer-annotations/1.15/animal-sniffer-annotations-1.15.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp Logging Interceptor 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ logging-interceptor ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/mockwebserver/3.11.0-SNAPSHOT/mockwebserver-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp-testing-support/3.11.0-SNAPSHOT/okhttp-testing-support-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp Tests 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ okhttp-tests ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/logging-interceptor/3.11.0-SNAPSHOT/logging-interceptor-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/mockwebserver/3.11.0-SNAPSHOT/mockwebserver-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp-testing-support/3.11.0-SNAPSHOT/okhttp-testing-support-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp-urlconnection/3.11.0-SNAPSHOT/okhttp-urlconnection-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/conscrypt/conscrypt-openjdk-uber/1.0.1/conscrypt-openjdk-uber-1.0.1.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp Android Platform Support 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ okhttp-android-support ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/mockwebserver/3.11.0-SNAPSHOT/mockwebserver-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp-testing-support/3.11.0-SNAPSHOT/okhttp-testing-support-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp-urlconnection/3.11.0-SNAPSHOT/okhttp-urlconnection-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp Apache HttpClient 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ okhttp-apache ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/mockwebserver/3.11.0-SNAPSHOT/mockwebserver-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp-testing-support/3.11.0-SNAPSHOT/okhttp-testing-support-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/media/troy/Disk2/ONR/maven/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar:/media/troy/Disk2/ONR/maven/repository/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp Server-Sent Events 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ okhttp-sse ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/mockwebserver/3.11.0-SNAPSHOT/mockwebserver-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp-testing-support/3.11.0-SNAPSHOT/okhttp-testing-support-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp DNS over HTTPS 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ okhttp-dnsoverhttps ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/mockwebserver/3.11.0-SNAPSHOT/mockwebserver-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp-testing-support/3.11.0-SNAPSHOT/okhttp-testing-support-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/conscrypt/conscrypt-openjdk-uber/1.1.0/conscrypt-openjdk-uber-1.1.0.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkCurl 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ okcurl ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/google/code/findbugs/annotations/2.0.3/annotations-2.0.3.jar:/media/troy/Disk2/ONR/maven/repository/com/google/guava/guava/16.0/guava-16.0.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp-testing-support/3.11.0-SNAPSHOT/okhttp-testing-support-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/io/airlift/airline/0.7/airline-0.7.jar:/media/troy/Disk2/ONR/maven/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Samples (Parent) 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ sample-parent ---
+[INFO] No dependencies found.
+[INFO] Dependencies classpath:
+
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Sample: Guide 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ guide ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/squareup/moshi/moshi/1.1.0/moshi-1.1.0.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Sample: Crawler 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ crawler ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/org/jsoup/jsoup/1.7.3/jsoup-1.7.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Sample: Simple Client 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ simple-client ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/squareup/moshi/moshi/1.1.0/moshi-1.1.0.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Sample: Slack 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ slack ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/squareup/moshi/moshi/1.1.0/moshi-1.1.0.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/mockwebserver/3.11.0-SNAPSHOT/mockwebserver-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Sample: Static Server 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ static-server ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/mockwebserver/3.11.0-SNAPSHOT/mockwebserver-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Sample: UNIX domain sockets 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ unixdomainsockets ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/github/jnr/jffi/1.2.15/jffi-1.2.15-native.jar:/media/troy/Disk2/ONR/maven/repository/com/github/jnr/jffi/1.2.15/jffi-1.2.15.jar:/media/troy/Disk2/ONR/maven/repository/com/github/jnr/jnr-constants/0.9.9/jnr-constants-0.9.9.jar:/media/troy/Disk2/ONR/maven/repository/com/github/jnr/jnr-enxio/0.17/jnr-enxio-0.17.jar:/media/troy/Disk2/ONR/maven/repository/com/github/jnr/jnr-ffi/2.1.4/jnr-ffi-2.1.4.jar:/media/troy/Disk2/ONR/maven/repository/com/github/jnr/jnr-posix/3.0.45/jnr-posix-3.0.45.jar:/media/troy/Disk2/ONR/maven/repository/com/github/jnr/jnr-unixsocket/0.19/jnr-unixsocket-0.19.jar:/media/troy/Disk2/ONR/maven/repository/com/github/jnr/jnr-x86asm/1.0.2/jnr-x86asm-1.0.2.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/mockwebserver/3.11.0-SNAPSHOT/mockwebserver-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/media/troy/Disk2/ONR/maven/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/media/troy/Disk2/ONR/maven/repository/org/ow2/asm/asm-analysis/5.0.3/asm-analysis-5.0.3.jar:/media/troy/Disk2/ONR/maven/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar:/media/troy/Disk2/ONR/maven/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/media/troy/Disk2/ONR/maven/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Benchmarks 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ benchmarks ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/media/troy/Disk2/ONR/maven/repository/com/google/caliper/caliper/1.0-beta-1/caliper-1.0-beta-1.jar:/media/troy/Disk2/ONR/maven/repository/com/google/code/gson/gson/2.2.2/gson-2.2.2.jar:/media/troy/Disk2/ONR/maven/repository/com/google/code/java-allocation-instrumenter/java-allocation-instrumenter/2.1/java-allocation-instrumenter-2.1.jar:/media/troy/Disk2/ONR/maven/repository/com/google/guava/guava/14.0.1/guava-14.0.1.jar:/media/troy/Disk2/ONR/maven/repository/com/google/inject/guice/3.0/guice-3.0.jar:/media/troy/Disk2/ONR/maven/repository/com/google/inject/extensions/guice-multibindings/3.0/guice-multibindings-3.0.jar:/media/troy/Disk2/ONR/maven/repository/com/jcraft/jzlib/1.1.2/jzlib-1.1.2.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/mockwebserver/3.11.0-SNAPSHOT/mockwebserver-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp/3.11.0-SNAPSHOT/okhttp-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okhttp3/okhttp-urlconnection/3.11.0-SNAPSHOT/okhttp-urlconnection-3.11.0-SNAPSHOT.jar:/media/troy/Disk2/ONR/maven/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/media/troy/Disk2/ONR/maven/repository/com/sun/jersey/jersey-client/1.11/jersey-client-1.11.jar:/media/troy/Disk2/ONR/maven/repository/com/sun/jersey/jersey-core/1.11/jersey-core-1.11.jar:/media/troy/Disk2/ONR/maven/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/media/troy/Disk2/ONR/maven/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/media/troy/Disk2/ONR/maven/repository/io/netty/netty-buffer/4.0.15.Final/netty-buffer-4.0.15.Final.jar:/media/troy/Disk2/ONR/maven/repository/io/netty/netty-codec/4.0.15.Final/netty-codec-4.0.15.Final.jar:/media/troy/Disk2/ONR/maven/repository/io/netty/netty-codec-http/4.0.15.Final/netty-codec-http-4.0.15.Final.jar:/media/troy/Disk2/ONR/maven/repository/io/netty/netty-common/4.0.15.Final/netty-common-4.0.15.Final.jar:/media/troy/Disk2/ONR/maven/repository/io/netty/netty-handler/4.0.15.Final/netty-handler-4.0.15.Final.jar:/media/troy/Disk2/ONR/maven/repository/io/netty/netty-transport/4.0.15.Final/netty-transport-4.0.15.Final.jar:/media/troy/Disk2/ONR/maven/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/media/troy/Disk2/ONR/maven/repository/joda-time/joda-time/2.1/joda-time-2.1.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.12/junit-4.12.jar:/media/troy/Disk2/ONR/maven/repository/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar:/media/troy/Disk2/ONR/maven/repository/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar:/media/troy/Disk2/ONR/maven/repository/org/bouncycastle/bcprov-jdk15on/1.50/bcprov-jdk15on-1.50.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/media/troy/Disk2/ONR/maven/repository/org/mortbay/jetty/alpn/alpn-boot/8.1.9.v20160720/alpn-boot-8.1.9.v20160720.jar:/media/troy/Disk2/ONR/maven/repository/org/ow2/asm/asm/4.0/asm-4.0.jar:/media/troy/Disk2/ONR/maven/repository/org/ow2/asm/asm-analysis/4.0/asm-analysis-4.0.jar:/media/troy/Disk2/ONR/maven/repository/org/ow2/asm/asm-commons/4.0/asm-commons-4.0.jar:/media/troy/Disk2/ONR/maven/repository/org/ow2/asm/asm-tree/4.0/asm-tree-4.0.jar:/media/troy/Disk2/ONR/maven/repository/org/ow2/asm/asm-util/4.0/asm-util-4.0.jar:/media/troy/Disk2/ONR/maven/repository/org/ow2/asm/asm-xml/4.0/asm-xml-4.0.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] OkHttp (Parent) ................................... SUCCESS [0.289s]
+[INFO] OkHttp ............................................ SUCCESS [0.653s]
+[INFO] OkHttp test support classes ....................... SUCCESS [0.016s]
+[INFO] MockWebServer ..................................... SUCCESS [0.013s]
+[INFO] OkHttp URLConnection .............................. SUCCESS [0.013s]
+[INFO] OkHttp Logging Interceptor ........................ SUCCESS [0.006s]
+[INFO] OkHttp Tests ...................................... SUCCESS [0.022s]
+[INFO] OkHttp Android Platform Support ................... SUCCESS [0.006s]
+[INFO] OkHttp Apache HttpClient .......................... SUCCESS [0.006s]
+[INFO] OkHttp Server-Sent Events ......................... SUCCESS [0.005s]
+[INFO] OkHttp DNS over HTTPS ............................. SUCCESS [0.006s]
+[INFO] OkCurl ............................................ SUCCESS [0.020s]
+[INFO] Samples (Parent) .................................. SUCCESS [0.002s]
+[INFO] Sample: Guide ..................................... SUCCESS [0.005s]
+[INFO] Sample: Crawler ................................... SUCCESS [0.004s]
+[INFO] Sample: Simple Client ............................. SUCCESS [0.028s]
+[INFO] Sample: Slack ..................................... SUCCESS [0.005s]
+[INFO] Sample: Static Server ............................. SUCCESS [0.008s]
+[INFO] Sample: UNIX domain sockets ....................... SUCCESS [0.031s]
+[INFO] Benchmarks ........................................ SUCCESS [0.056s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.523s
+[INFO] Finished at: Tue Aug 07 11:40:34 PDT 2018
+[INFO] Final Memory: 20M/422M
+[INFO] ------------------------------------------------------------------------

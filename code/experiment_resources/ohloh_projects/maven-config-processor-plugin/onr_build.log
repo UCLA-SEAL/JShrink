@@ -1,0 +1,8 @@
+[ERROR] 
+
+Artifact Ids of the format maven-___-plugin are reserved for 
+plugins in the Group Id org.apache.maven.plugins
+Please change your artifactId to the format ___-maven-plugin
+In the future this error will break the build.
+
+

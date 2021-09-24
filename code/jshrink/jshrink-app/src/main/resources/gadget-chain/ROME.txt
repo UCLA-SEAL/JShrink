@@ -1,0 +1,8 @@
+com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl
+sun.reflect.NativeMethodAccessorImpl
+sun.reflect.DelegatingMethodAccessorImpl
+java.lang.reflect.Method
+com.rometools.rome.feed.impl.ToStringBean
+com.sun.syndication.feed.impl.ObjectBean
+com.rometools.rome.feed.impl.EqualsBean
+java.util.HashMap

@@ -1,0 +1,29 @@
+public class edu.ucla.cs.onr.testprograms.classcollapser.field.original.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        edu.ucla.cs.onr.testprograms.classcollapser.field.original.Main r0;
+
+        r0 := @this: edu.ucla.cs.onr.testprograms.classcollapser.field.original.Main;
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] r0;
+        edu.ucla.cs.onr.testprograms.classcollapser.field.original.B $r1, r2, r3, $r4;
+
+        r0 := @parameter0: java.lang.String[];
+        $r1 = new edu.ucla.cs.onr.testprograms.classcollapser.field.original.B;
+        specialinvoke $r1.<edu.ucla.cs.onr.testprograms.classcollapser.field.original.B: void <init>(int,int)>(1, 2);
+        r2 = $r1;
+        $r4 = new edu.ucla.cs.onr.testprograms.classcollapser.field.original.B;
+        specialinvoke $r4.<edu.ucla.cs.onr.testprograms.classcollapser.field.original.B: void <init>(int,int)>(3, 4);
+        r3 = $r4;
+        virtualinvoke r2.<edu.ucla.cs.onr.testprograms.classcollapser.field.original.A: void foo()>();
+        virtualinvoke r3.<edu.ucla.cs.onr.testprograms.classcollapser.field.original.B: void foo()>();
+        return;
+    }
+}

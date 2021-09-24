@@ -1,0 +1,158 @@
+ ------
+ XML Processing
+ ------
+ Leandro Aparecido
+ ------
+ 2009-02-10
+ ------
+
+XML Processing
+
+ You can add, remove or modify nodes and attributes of XMLs files using XPath expressions
+ to select specific nodes.
+ The examples below show modifications to a Spring (http://www.springframework.org)
+ configuration file without namespace use (but namespaces are supported too).
+ 
+* Adding a new XML element
+
+ When adding a new node, you must specify the node after, before or inside which
+ you want to add the node and the XML fragment to add as shown below.
+
++-----+
+<processor>
+  ...
+  <add>
+    <after>/beans/bean[@id='testBean']</after>
+    <value>
+      <![CDATA[
+        <bean id="testBean2" class="com.foo.TestBean">
+        </bean>
+      ]]>
+    </value>
+  </add>
+  ...
+</processor>
++-----+
+
+ This fragment will instruct the config processor plugin to add the new <bean> element
+ after the bean with id="testBean".
+
+ To add a new attribute, you specify the node using the <name> configuration instead of
+ <after/before> because attribute ordering is not supported,
+ you can't say "Add X after attribute Y", you only specify which node will have
+ the attribute added.
+
++-----+
+<processor>
+  ...
+  <add>
+    <name>/beans/bean[@id='testBean']</name>
+    <value>
+      <![CDATA[
+        scope="prototype"
+      ]]>
+    </value>
+  </add>
+  ...
+</processor>
++-----+
+
+ This fragment will instruct the config processor to add the <scope> attribute to the bean with
+ id="testBean".
+
+ As of version 1.8, it is possible to add another XML file instead of specifying value as the
+ following:
+
++-----+
+<processor>
+  ...
+  <add>
+    <inside>/beans</inside>
+    <file>src/assembly/my-config-bean.xml</file>
+  </add>
+  ...
+</processor>
++-----+
+
+ The plugin will append the entire <my-config-bean.xml> file inside the /beans node. The root node
+ of the file being added will be ignore by default, if you need it to be added too, you can add the
+ attribute <ignore-root> to the file element in the configuration file.
+ The file tag can reference files in the file system, other maven artifacts, classpath resources
+ or URLs.
+
+* Removing an XML element
+
+ To remove an XML element, you have to configure its XPath as follows.
+
++-----+
+<processor>
+  ...
+  <remove>
+    <name>/beans/bean[@id='testBean']</name>
+  </remove>
+  ...
+</processor>
++-----+
+
+ This fragment will instruct the config processor plugin to generate the processed file without
+ the bean with id="testBean".
+
+ If you want to remove just the <scope> attribute of the bean, the XPath expression would be:
+ /beans/bean[@id='testBean']/@scope
+
+* Modifying an XML element
+
+ To modify an XML element, you must define the XPath expression to find it and the fragment
+ to put on its place as shown below.
+
++-----+
+<processor>
+  ...
+  <modify>
+    <name>/beans/bean[@id='testBean']</name>
+    <value>
+      <![CDATA[
+        <bean id="testBean" class="com.foo.ActualTestBean">
+        </bean>
+      ]]>
+    </value>
+  </modify>
+  ...
+</processor>
++-----+
+
+ This fragment will instruct the config processor to remove the bean with id="testBean" and
+ put in its place the new bean definition.
+
+ If you need to change the scope of the bean, say from "prototype" to "singleton", the
+ configuration is as follows:
+
++-----+
+<processor>
+  ...
+  <modify>
+    <name>/beans/bean[@id='testBean']/@scope</name>
+    <value>singleton</value>
+  </modify>
+  ...
+</processor>
++-----+
+
+* Modifying XML elements using Regular Expressions
+
+ As of version 1.8, it is possible to modify XML element values and comments using regular
+ expressions as follows:
+
++-----+
+<processor>
+  ...
+  <modify>
+    <find>[\\w\\-]+@\\w+\\.\\w+</find>
+    <replace>my-email@domain.com</replace>
+  </modify>
+  ...
+</processor>
++-----+
+
+ This will look for e-mails in element values and comments and modify them to
+ <my-email@domain.com>.

@@ -1,0 +1,13 @@
+javax.el.ELContext
+javax.el.ExpressionFactory
+javax.el.ValueExpression
+javax.servlet.ServletContext
+javax.servlet.ServletRequest
+javax.servlet.ServletResponse
+org.apache.myfaces.context.servlet.FacesContextImpl
+org.apache.myfaces.context.servlet.FacesContextImplBase
+org.apache.myfaces.el.CompositeELResolver
+org.apache.myfaces.el.unified.FacesELContext
+org.apache.myfaces.view.facelets.el.ValueExpressionMethodExpression
+com.sun.el.ValueExpressionImpl
+java.util.HashMap

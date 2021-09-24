@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<xsd:schema xmlns="http://maven-config-processor-plugin.googlecode.com/schema/transformation" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://maven-config-processor-plugin.googlecode.com/schema/transformation" elementFormDefault="qualified">
+
+	<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+
+	<xsd:element name="processor" type="actionsType">
+		<xsd:annotation>
+			<xsd:documentation>
+				Root element.
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+
+	<xsd:complexType name="actionsType">
+		<xsd:sequence>
+			<xsd:element name="add" minOccurs="0" maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>
+						Add a new value to the processed file.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:complexType>
+					<xsd:all>
+						<xsd:element name="name" type="xsd:string" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Name of the property to add to the processed file.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+						<xsd:element name="after" type="xsd:string" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Name of the property or XPath expression determining the node or XML element attribute
+									after which to add the new value.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+						<xsd:element name="before" type="xsd:string" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Name of the property or XPath expression determining the node or XML element attribute
+									before which to add the new value.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+						<xsd:element name="inside" type="xsd:string" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									XPath expression determining the node inside which to add the new value.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+						<xsd:element name="first" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Indicates that the new value must be added before everything in the file.
+								</xsd:documentation>
+							</xsd:annotation>
+							<xsd:complexType />
+						</xsd:element>
+						<xsd:element name="last" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Indicates that the new value must be added after everything in the file.
+								</xsd:documentation>
+							</xsd:annotation>
+							<xsd:complexType />
+						</xsd:element>
+						<xsd:element name="file" type="xsd:string" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									File that must be added to the processed file.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+						<xsd:element name="value" type="xsd:string" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Value of the property or XML snippet to be added.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+						<xsd:element name="actions" type="actionsType" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Processing actions to apply to the file being added.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+					</xsd:all>
+					<xsd:attribute name="ignore-root" type="xsd:boolean">
+						<xsd:annotation>
+							<xsd:documentation>
+								Indicates that the root element of the file being added must be ignored when adding its contents.
+							</xsd:documentation>
+						</xsd:annotation>
+					</xsd:attribute>
+				</xsd:complexType>
+			</xsd:element>
+
+			<xsd:element name="modify" minOccurs="0" maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>
+						Modify a value of the processed file.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:complexType>
+					<xsd:all>
+						<xsd:element name="name" type="xsd:string" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Name of the property or XPath expression determining the node or XML element attribute
+									to modify.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+						<xsd:element name="value" type="xsd:string" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									New value of the property or XML snippet to replace the existing XML element.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+						<xsd:element name="find" type="xsd:string" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Regular expression to use to find text fragments in property values and
+									comments to replace with the value of the "replace" element.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+						<xsd:element name="replace" type="xsd:string" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Value used to replace the text fragments found using the regular expression of the
+									"find" element.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+						<xsd:element name="flags" type="xsd:string" minOccurs="0" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Comma-separated list of java.util.regex.Pattern flags to be used when looking for matches of the "find" element.
+									If not specified, CASE_INSENSITIVE is used by default.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+					</xsd:all>
+				</xsd:complexType>
+			</xsd:element>
+
+			<xsd:element name="remove" minOccurs="0" maxOccurs="unbounded">
+				<xsd:annotation>
+					<xsd:documentation>
+						Remove a property or XML element of the processed file.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:complexType>
+					<xsd:all>
+						<xsd:element name="name" type="xsd:string" minOccurs="1" maxOccurs="1">
+							<xsd:annotation>
+								<xsd:documentation>
+									Name of the property or XPath expression determining the node or XML element attribute
+									to remove.
+								</xsd:documentation>
+							</xsd:annotation>
+						</xsd:element>
+					</xsd:all>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,449 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] OkHttp (Parent)
+[INFO] OkHttp
+[INFO] OkHttp test support classes
+[INFO] MockWebServer
+[INFO] OkHttp URLConnection
+[INFO] OkHttp Logging Interceptor
+[INFO] OkHttp Tests
+[INFO] OkHttp Android Platform Support
+[INFO] OkHttp Apache HttpClient
+[INFO] OkHttp Server-Sent Events
+[INFO] OkHttp DNS over HTTPS
+[INFO] OkCurl
+[INFO] Samples (Parent)
+[INFO] Sample: Guide
+[INFO] Sample: Crawler
+[INFO] Sample: Simple Client
+[INFO] Sample: Slack
+[INFO] Sample: Static Server
+[INFO] Sample: UNIX domain sockets
+[INFO] Benchmarks
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp (Parent) 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ parent ---
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (default) @ parent ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okhttp ---
+[INFO] 
+[INFO] --- templating-maven-plugin:1.0-alpha-3:filter-sources (default) @ okhttp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Source directory: /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/target/generated-sources/java-templates added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okhttp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okhttp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 101 source files to /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/target/classes
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/src/main/java/okhttp3/OkHttpClient.java:[-1,-1] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/src/main/java/okhttp3/OkHttpClient.java uses or overrides a deprecated API.
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/src/main/java/okhttp3/OkHttpClient.java:[-1,-1] Recompile with -Xlint:deprecation for details.
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/src/main/java/okhttp3/internal/Util.java:[-1,-1] Some input files use unchecked or unsafe operations.
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/src/main/java/okhttp3/internal/Util.java:[-1,-1] Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ okhttp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ okhttp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ okhttp ---
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.21.0/surefire-junit47-2.21.0.pom
+4/7 KB   7/7 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.21.0/surefire-junit47-2.21.0.pom (7 KB at 71.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.21.0/common-junit48-2.21.0.pom
+4/4 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.21.0/common-junit48-2.21.0.pom (4 KB at 217.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.21.0/common-junit4-2.21.0.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.21.0/common-junit4-2.21.0.pom (3 KB at 152.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.21.0/common-junit3-2.21.0.pom
+2/2 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.21.0/common-junit3-2.21.0.pom (2 KB at 113.1 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.21.0/common-java5-2.21.0.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.21.0/common-java5-2.21.0.pom (3 KB at 145.2 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.pom
+3/3 KB            Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.pom (3 KB at 220.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.21.0/surefire-junit47-2.21.0.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.21.0/common-junit48-2.21.0.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.21.0/common-junit4-2.21.0.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.21.0/common-junit3-2.21.0.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.21.0/common-java5-2.21.0.jar
+4/163 KB   8/163 KB   12/163 KB   13/163 KB   17/163 KB   19/163 KB   20/163 KB   20/163 KB   4/22 KB   1/12 KB   20/163 KB   4/22 KB   4/28 KB   1/12 KB   20/163 KB   8/22 KB   4/28 KB   1/12 KB   20/163 KB   12/22 KB   4/28 KB   1/12 KB   20/163 KB   13/22 KB   4/28 KB   1/12 KB   20/163 KB   13/22 KB   4/28 KB   1/12 KB   20/163 KB   13/22 KB   8/28 KB   1/12 KB   20/163 KB   13/22 KB   12/28 KB   5/12 KB   20/163 KB   13/22 KB   12/28 KB   5/12 KB   24/163 KB   13/22 KB   12/28 KB   9/12 KB   24/163 KB   13/22 KB   12/28 KB   9/12 KB   28/163 KB   13/22 KB   12/28 KB   12/12 KB   28/163 KB   13/22 KB   12/28 KB   12/12 KB   31/163 KB   13/22 KB   12/28 KB   12/12 KB   31/163 KB   4/50 KB   13/22 KB   13/28 KB   12/12 KB   31/163 KB   4/50 KB   13/22 KB   13/28 KB   12/12 KB   31/163 KB   8/50 KB   13/22 KB   13/28 KB   12/12 KB   31/163 KB   12/50 KB   13/22 KB   13/28 KB   12/12 KB   31/163 KB   13/50 KB   13/22 KB   13/28 KB   12/12 KB   34/163 KB   13/50 KB   13/22 KB   13/28 KB   12/12 KB   38/163 KB   13/50 KB   13/22 KB   13/28 KB   12/12 KB   42/163 KB   13/50 KB   13/22 KB   13/28 KB   12/12 KB   42/163 KB   13/50 KB   13/22 KB   13/28 KB   12/12 KB   46/163 KB   13/50 KB   17/22 KB   13/28 KB   12/12 KB   46/163 KB   13/50 KB   17/22 KB   13/28 KB   12/12 KB   46/163 KB   13/50 KB   17/22 KB   17/28 KB   12/12 KB   46/163 KB   13/50 KB   21/22 KB   17/28 KB   12/12 KB   50/163 KB   13/50 KB   21/22 KB   21/28 KB   12/12 KB   46/163 KB   13/50 KB   21/22 KB   21/28 KB   12/12 KB   50/163 KB   13/50 KB   22/22 KB   21/28 KB   12/12 KB   54/163 KB   13/50 KB   22/22 KB   21/28 KB   12/12 KB   54/163 KB   13/50 KB   22/22 KB   25/28 KB   12/12 KB   58/163 KB   13/50 KB   22/22 KB   25/28 KB   12/12 KB   58/163 KB   13/50 KB   22/22 KB   28/28 KB   12/12 KB   60/163 KB   13/50 KB   22/22 KB   28/28 KB   12/12 KB   60/163 KB   17/50 KB   22/22 KB   28/28 KB   12/12 KB   64/163 KB   17/50 KB   22/22 KB   28/28 KB   12/12 KB   64/163 KB   21/50 KB   22/22 KB   28/28 KB   12/12 KB   68/163 KB   21/50 KB   22/22 KB   28/28 KB   12/12 KB   68/163 KB   25/50 KB   22/22 KB   28/28 KB   12/12 KB   72/163 KB   25/50 KB   22/22 KB   28/28 KB   12/12 KB   72/163 KB   29/50 KB   22/22 KB   28/28 KB   12/12 KB   72/163 KB   33/50 KB   22/22 KB   28/28 KB                                                           72/163 KB   37/50 KB   22/22 KB   28/28 KB              Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit3/2.21.0/common-junit3-2.21.0.jar (12 KB at 476.0 KB/sec)
+76/163 KB   37/50 KB   22/22 KB   28/28 KB   Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar
+76/163 KB   40/50 KB   22/22 KB   28/28 KB   80/163 KB   40/50 KB   22/22 KB   28/28 KB   84/163 KB   40/50 KB   22/22 KB   28/28 KB   88/163 KB   40/50 KB   22/22 KB   28/28 KB   92/163 KB   40/50 KB   22/22 KB   28/28 KB   96/163 KB   40/50 KB   22/22 KB   28/28 KB   100/163 KB   40/50 KB   22/22 KB   28/28 KB   104/163 KB   40/50 KB   22/22 KB   28/28 KB   108/163 KB   40/50 KB   22/22 KB   28/28 KB   110/163 KB   40/50 KB   22/22 KB   28/28 KB   114/163 KB   40/50 KB   22/22 KB   28/28 KB   118/163 KB   40/50 KB   22/22 KB   28/28 KB   122/163 KB   40/50 KB   22/22 KB   28/28 KB   126/163 KB   40/50 KB   22/22 KB   28/28 KB   127/163 KB   40/50 KB   22/22 KB   28/28 KB   127/163 KB   44/50 KB   22/22 KB   28/28 KB   131/163 KB   44/50 KB   22/22 KB   28/28 KB   131/163 KB   48/50 KB   22/22 KB   28/28 KB   135/163 KB   48/50 KB   22/22 KB   28/28 KB   135/163 KB   50/50 KB   22/22 KB   28/28 KB   139/163 KB   50/50 KB   22/22 KB   28/28 KB   143/163 KB   50/50 KB   22/22 KB   28/28 KB                                                                                               Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit4/2.21.0/common-junit4-2.21.0.jar (28 KB at 808.9 KB/sec)
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-junit48/2.21.0/common-junit48-2.21.0.jar (22 KB at 613.7 KB/sec)
+146/163 KB   50/50 KB                         150/163 KB   50/50 KB   154/163 KB   50/50 KB   158/163 KB   50/50 KB   160/163 KB   50/50 KB   163/163 KB   50/50 KB   163/163 KB   50/50 KB   4/40 KB   163/163 KB   50/50 KB   8/40 KB   163/163 KB   50/50 KB   9/40 KB   163/163 KB   50/50 KB   12/40 KB   163/163 KB   50/50 KB   16/40 KB   163/163 KB   50/50 KB   20/40 KB   163/163 KB   50/50 KB   24/40 KB   163/163 KB   50/50 KB   25/40 KB                                      Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/common-java5/2.21.0/common-java5-2.21.0.jar (50 KB at 1315.5 KB/sec)
+163/163 KB   29/40 KB              163/163 KB   33/40 KB   163/163 KB   37/40 KB   163/163 KB   40/40 KB                           Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit47/2.21.0/surefire-junit47-2.21.0.jar (163 KB at 3192.7 KB/sec)
+                        Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar (40 KB at 1628.9 KB/sec)
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (default) @ okhttp ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp test support classes 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okhttp-testing-support ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okhttp-testing-support ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-testing-support/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okhttp-testing-support ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ okhttp-testing-support ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-testing-support/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ okhttp-testing-support ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ okhttp-testing-support ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (default) @ okhttp-testing-support ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building MockWebServer 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ mockwebserver ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ mockwebserver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/mockwebserver/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ mockwebserver ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ mockwebserver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/mockwebserver/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ mockwebserver ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/mockwebserver/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ mockwebserver ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running okhttp3.mockwebserver.MockWebServerTest
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.87 s - in okhttp3.mockwebserver.MockWebServerTest
+[INFO] Running okhttp3.mockwebserver.HeldCertificateTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.374 s - in okhttp3.mockwebserver.HeldCertificateTest
+[INFO] Running okhttp3.mockwebserver.CustomDispatcherTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in okhttp3.mockwebserver.CustomDispatcherTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 41, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (default) @ mockwebserver ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp URLConnection 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okhttp-urlconnection ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okhttp-urlconnection ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-urlconnection/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okhttp-urlconnection ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ okhttp-urlconnection ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-urlconnection/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ okhttp-urlconnection ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-urlconnection/target/test-classes
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-urlconnection/src/test/java/okhttp3/internal/huc/URLEncodingTest.java:[-1,-1] Some input files use or override a deprecated API.
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-urlconnection/src/test/java/okhttp3/internal/huc/URLEncodingTest.java:[-1,-1] Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ okhttp-urlconnection ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running okhttp3.OkUrlFactoryTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.626 s - in okhttp3.OkUrlFactoryTest
+[INFO] Running okhttp3.internal.huc.URLEncodingTest
+[WARNING] Tests run: 2, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.002 s - in okhttp3.internal.huc.URLEncodingTest
+[INFO] Running okhttp3.UrlConnectionCacheTest
+[INFO] Tests run: 109, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.396 s - in okhttp3.UrlConnectionCacheTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[WARNING] Tests run: 124, Failures: 0, Errors: 0, Skipped: 2
+[INFO] 
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (default) @ okhttp-urlconnection ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp Logging Interceptor 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ logging-interceptor ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ logging-interceptor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-logging-interceptor/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ logging-interceptor ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ logging-interceptor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-logging-interceptor/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ logging-interceptor ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-logging-interceptor/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ logging-interceptor ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running okhttp3.logging.HttpLoggingInterceptorTest
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.321 s - in okhttp3.logging.HttpLoggingInterceptorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 26, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.15:check (default) @ logging-interceptor ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp Tests 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okhttp-tests ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okhttp-tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-tests/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okhttp-tests ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ okhttp-tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ okhttp-tests ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 86 source files to /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-tests/target/test-classes
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-tests/src/test/java/okhttp3/internal/http/ThreadInterruptTest.java:[-1,-1] Some input files use or override a deprecated API.
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-tests/src/test/java/okhttp3/internal/http/ThreadInterruptTest.java:[-1,-1] Recompile with -Xlint:deprecation for details.
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-tests/src/test/java/okhttp3/DelegatingSSLSocket.java:[-1,-1] Some input files use unchecked or unsafe operations.
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-tests/src/test/java/okhttp3/DelegatingSSLSocket.java:[-1,-1] Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ okhttp-tests ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running okhttp3.HeadersTest
+[INFO] Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in okhttp3.HeadersTest
+[INFO] Running okhttp3.EventListenerTest
+[WARNING] Tests run: 44, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 8.018 s - in okhttp3.EventListenerTest
+[INFO] Running okhttp3.CacheControlTest
+[INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in okhttp3.CacheControlTest
+[INFO] Running okhttp3.CertificateChainCleanerTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2 s - in okhttp3.CertificateChainCleanerTest
+[INFO] Running okhttp3.ResponseTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in okhttp3.ResponseTest
+[INFO] Running okhttp3.HttpUrlTest
+[WARNING] Tests run: 156, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.372 s - in okhttp3.HttpUrlTest
+[INFO] Running okhttp3.URLConnectionTest
+[WARNING] Tests run: 234, Failures: 0, Errors: 0, Skipped: 7, Time elapsed: 18.989 s - in okhttp3.URLConnectionTest
+[INFO] Running okhttp3.ConnectionReuseTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.503 s - in okhttp3.ConnectionReuseTest
+[INFO] Running okhttp3.InterceptorTest
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.289 s - in okhttp3.InterceptorTest
+[INFO] Running okhttp3.MultipartBodyTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 s - in okhttp3.MultipartBodyTest
+[INFO] Running okhttp3.CertificatePinnerTest
+[INFO] Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 s - in okhttp3.CertificatePinnerTest
+[INFO] Running okhttp3.OkHttpClientTest
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in okhttp3.OkHttpClientTest
+[INFO] Running okhttp3.ProtocolTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in okhttp3.ProtocolTest
+[INFO] Running okhttp3.ConnectionPoolTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.195 s - in okhttp3.ConnectionPoolTest
+[INFO] Running okhttp3.ConscryptTest
+[WARNING] Tests run: 4, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.054 s - in okhttp3.ConscryptTest
+[INFO] Running okhttp3.AddressTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in okhttp3.AddressTest
+[INFO] Running okhttp3.MediaTypeTest
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in okhttp3.MediaTypeTest
+[INFO] Running okhttp3.CacheTest
+[INFO] Tests run: 133, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.84 s - in okhttp3.CacheTest
+[INFO] Running okhttp3.RequestTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in okhttp3.RequestTest
+[INFO] Running okhttp3.ConnectionCoalescingTest
+[WARNING] Tests run: 12, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 3.375 s - in okhttp3.ConnectionCoalescingTest
+[INFO] Running okhttp3.DispatcherTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 s - in okhttp3.DispatcherTest
+[INFO] Running okhttp3.WebPlatformUrlTest
+[INFO] Tests run: 265, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 s - in okhttp3.WebPlatformUrlTest
+[INFO] Running okhttp3.CookiesTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 s - in okhttp3.CookiesTest
+[INFO] Running okhttp3.CallTest
+[WARNING] Tests run: 177, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 28.866 s - in okhttp3.CallTest
+[INFO] Running okhttp3.FormBodyTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in okhttp3.FormBodyTest
+[INFO] Running okhttp3.ResponseBodyTest
+[INFO] Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in okhttp3.ResponseBodyTest
+[INFO] Running okhttp3.CipherSuiteTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 s - in okhttp3.CipherSuiteTest
+[INFO] Running okhttp3.internal.tls.ClientAuthTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.197 s - in okhttp3.internal.tls.ClientAuthTest
+[INFO] Running okhttp3.internal.tls.HostnameVerifierTest
+[WARNING] Tests run: 16, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.004 s - in okhttp3.internal.tls.HostnameVerifierTest
+[INFO] Running okhttp3.internal.tls.DistinguishedNameParserTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in okhttp3.internal.tls.DistinguishedNameParserTest
+[INFO] Running okhttp3.internal.tls.CertificatePinnerChainValidationTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.45 s - in okhttp3.internal.tls.CertificatePinnerChainValidationTest
+[INFO] Running okhttp3.internal.ws.WebSocketWriterTest
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 s - in okhttp3.internal.ws.WebSocketWriterTest
+[INFO] Running okhttp3.internal.ws.WebSocketHttpTest
+[WARNING] Tests run: 37, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 6.458 s - in okhttp3.internal.ws.WebSocketHttpTest
+[INFO] Running okhttp3.internal.ws.WebSocketReaderTest
+[INFO] Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in okhttp3.internal.ws.WebSocketReaderTest
+[INFO] Running okhttp3.internal.ws.RealWebSocketTest
+[WARNING] Tests run: 23, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 4.012 s - in okhttp3.internal.ws.RealWebSocketTest
+[INFO] Running okhttp3.internal.UtilTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in okhttp3.internal.UtilTest
+[INFO] Running okhttp3.internal.publicsuffix.PublicSuffixDatabaseTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 s - in okhttp3.internal.publicsuffix.PublicSuffixDatabaseTest
+[INFO] Running okhttp3.internal.http2.HpackTest
+[INFO] Tests run: 53, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in okhttp3.internal.http2.HpackTest
+[INFO] Running okhttp3.internal.http2.HttpOverHttp2Test
+[ERROR] Tests run: 88, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 26.758 s <<< FAILURE! - in okhttp3.internal.http2.HttpOverHttp2Test
+[ERROR] concurrentHttp2ConnectionsDeduplicated[h2](okhttp3.internal.http2.HttpOverHttp2Test)  Time elapsed: 0.207 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<3>
+	at okhttp3.internal.http2.HttpOverHttp2Test.concurrentHttp2ConnectionsDeduplicated(HttpOverHttp2Test.java:1394)
+
+[INFO] Running okhttp3.internal.http2.Http2Test
+[INFO] Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s - in okhttp3.internal.http2.Http2Test
+[INFO] Running okhttp3.internal.http2.Http2ConnectionTest
+[INFO] Tests run: 50, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.258 s - in okhttp3.internal.http2.Http2ConnectionTest
+[INFO] Running okhttp3.internal.http2.HuffmanTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in okhttp3.internal.http2.HuffmanTest
+[INFO] Running okhttp3.internal.http2.SettingsTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in okhttp3.internal.http2.SettingsTest
+[INFO] Running okhttp3.internal.http2.FrameLogTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in okhttp3.internal.http2.FrameLogTest
+[INFO] Running okhttp3.internal.http.StatusLineTest
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in okhttp3.internal.http.StatusLineTest
+[INFO] Running okhttp3.internal.http.ThreadInterruptTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.002 s - in okhttp3.internal.http.ThreadInterruptTest
+[INFO] Running okhttp3.internal.http.HttpDateTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in okhttp3.internal.http.HttpDateTest
+[INFO] Running okhttp3.internal.http.DisconnectTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.795 s - in okhttp3.internal.http.DisconnectTest
+[INFO] Running okhttp3.internal.cache.DiskLruCacheTest
+[INFO] Tests run: 103, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.254 s - in okhttp3.internal.cache.DiskLruCacheTest
+[INFO] Running okhttp3.internal.connection.RouteSelectorTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in okhttp3.internal.connection.RouteSelectorTest
+[INFO] Running okhttp3.internal.connection.RouteExceptionTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in okhttp3.internal.connection.RouteExceptionTest
+[INFO] Running okhttp3.internal.connection.ConnectionSpecSelectorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in okhttp3.internal.connection.ConnectionSpecSelectorTest
+[INFO] Running okhttp3.internal.cache2.FileOperatorTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 s - in okhttp3.internal.cache2.FileOperatorTest
+[INFO] Running okhttp3.internal.cache2.RelayTest
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.087 s - in okhttp3.internal.cache2.RelayTest
+[INFO] Running okhttp3.internal.platform.Jdk9PlatformTest
+[WARNING] Tests run: 2, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0 s - in okhttp3.internal.platform.Jdk9PlatformTest
+[INFO] Running okhttp3.internal.platform.OptionalMethodTest
+[WARNING] Tests run: 9, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 s - in okhttp3.internal.platform.OptionalMethodTest
+[INFO] Running okhttp3.internal.platform.PlatformTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in okhttp3.internal.platform.PlatformTest
+[INFO] Running okhttp3.internal.platform.JdkWithJettyBootPlatformTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in okhttp3.internal.platform.JdkWithJettyBootPlatformTest
+[INFO] Running okhttp3.ConnectionSpecTest
+[INFO] Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s - in okhttp3.ConnectionSpecTest
+[INFO] Running okhttp3.SocksProxyTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s - in okhttp3.SocksProxyTest
+[INFO] Running okhttp3.CookieTest
+[INFO] Tests run: 59, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in okhttp3.CookieTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   HttpOverHttp2Test.concurrentHttp2ConnectionsDeduplicated:1394 expected:<1> but was:<3>
+[INFO] 
+[ERROR] Tests run: 1957, Failures: 1, Errors: 0, Skipped: 28
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] OkHttp (Parent) ................................... SUCCESS [0.505s]
+[INFO] OkHttp ............................................ SUCCESS [6.559s]
+[INFO] OkHttp test support classes ....................... SUCCESS [0.295s]
+[INFO] MockWebServer ..................................... SUCCESS [7.105s]
+[INFO] OkHttp URLConnection .............................. SUCCESS [9.900s]
+[INFO] OkHttp Logging Interceptor ........................ SUCCESS [1.887s]
+[INFO] OkHttp Tests ...................................... FAILURE [2:28.815s]
+[INFO] OkHttp Android Platform Support ................... SKIPPED
+[INFO] OkHttp Apache HttpClient .......................... SKIPPED
+[INFO] OkHttp Server-Sent Events ......................... SKIPPED
+[INFO] OkHttp DNS over HTTPS ............................. SKIPPED
+[INFO] OkCurl ............................................ SKIPPED
+[INFO] Samples (Parent) .................................. SKIPPED
+[INFO] Sample: Guide ..................................... SKIPPED
+[INFO] Sample: Crawler ................................... SKIPPED
+[INFO] Sample: Simple Client ............................. SKIPPED
+[INFO] Sample: Slack ..................................... SKIPPED
+[INFO] Sample: Static Server ............................. SKIPPED
+[INFO] Sample: UNIX domain sockets ....................... SKIPPED
+[INFO] Benchmarks ........................................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 2:55.864s
+[INFO] Finished at: Sat Jul 07 20:39:20 PDT 2018
+[INFO] Final Memory: 50M/989M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.21.0:test (default-test) on project okhttp-tests: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-tests/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date]-jvmRun[N].dump, [date].dumpstream and [date]-jvmRun[N].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :okhttp-tests

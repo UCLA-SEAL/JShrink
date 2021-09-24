@@ -1,0 +1,12 @@
+<module>
+    <stylesheet src="gwt-cal-google.css"/>
+<!--    <replace-with class="com.bradrydzewski.gwt.calendar.theme.google.client.GoogleAppointmentTheme">-->
+<!--        <when-type-is class="com.bradrydzewski.gwt.calendar.client.AppointmentTheme"/>-->
+<!--    </replace-with>-->
+    <replace-with class="com.bradrydzewski.gwt.calendar.theme.google.client.GoogleMonthViewStyleManager">
+        <when-type-is class="com.bradrydzewski.gwt.calendar.client.monthview.MonthViewStyleManager"/>
+    </replace-with>
+    <replace-with class="com.bradrydzewski.gwt.calendar.theme.google.client.GoogleDayViewStyleManager">
+        <when-type-is class="com.bradrydzewski.gwt.calendar.client.dayview.DayViewStyleManager"/>
+    </replace-with>
+</module>

@@ -1,0 +1,32 @@
+
+<module>
+
+ <!-- Inherit the core Web Toolkit stuff -->
+    <inherits name="com.google.gwt.user.User" />
+    <inherits name="com.google.gwt.user.UserAgent"/>
+    <inherits name='com.allen_sauer.gwt.dnd.gwt-dnd'/>
+    <inherits name="com.google.gwt.i18n.I18N" />
+    <extend-property name="locale" values="sv"/>
+    <extend-property name="locale" values="sv_SE"/>
+    <extend-property name="locale" values="es"/>
+    <extend-property name="locale" values="es_MX"/>
+    <extend-property name="locale" values="fr"/>
+    <extend-property name="locale" values="it"/>
+    <extend-property name="locale" values="no"/>
+    <extend-property name="locale" values="nn_NO"/>
+    <extend-property name="locale" values="pl_PL"/>
+    <extend-property name="locale" values="nl"/>
+    
+ <!-- Deferred Binding for better browser compatibility -->
+    <replace-with class="com.bradrydzewski.gwt.calendar.client.util.impl.FormattingImpl">
+        <when-type-is class="com.bradrydzewski.gwt.calendar.client.util.impl.FormattingImpl"/>
+    </replace-with>
+    <replace-with class="com.bradrydzewski.gwt.calendar.client.util.impl.FormattingIE6Impl">
+        <when-type-is class="com.bradrydzewski.gwt.calendar.client.util.impl.FormattingImpl"/>
+        <any>
+            <when-property-is name="user.agent" value="ie6"/>
+            <when-property-is name="user.agent" value="ie7"/>
+        </any>
+    </replace-with>
+                                          
+</module>

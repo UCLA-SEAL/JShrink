@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.google.code.maven-config-processor-plugin</groupId>
+	<artifactId>example-project</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0-SNAPSHOT</version>
+
+	<properties>
+		<example-project.property1>1234567890</example-project.property1>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.google.code.maven-config-processor-plugin</groupId>
+				<artifactId>maven-config-processor-plugin</artifactId>
+				<version>${project.version}</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+					<namespaceContexts>
+						<s>http://www.springframework.org/schema/beans</s>
+					</namespaceContexts>
+
+					<transformations>
+						<transformation>
+							<input>config/my-prop-config.properties</input>
+							<output>processed/my-prop-config.properties</output>
+							<rules>
+								<!-- Add non-existing property -->
+								<add>
+									<name>test-property</name>
+									<value>${project.version}</value>
+									<before>property1.value</before>
+								</add>
+
+								<!-- Modify a property value -->
+								<modify>
+									<name>property1.value</name>
+									<value>modified-value1</value>
+								</modify>
+
+								<!-- Remove a property -->
+								<remove>
+									<name>property3.value</name>
+								</remove>
+							</rules>
+						</transformation>
+
+						<transformation>
+							<input>config/my-xml-config.xml</input>
+							<output>processed/my-xml-config.xml</output>
+							<config>my-xml-config-processing.xml</config>
+						</transformation>
+					</transformations>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>process</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

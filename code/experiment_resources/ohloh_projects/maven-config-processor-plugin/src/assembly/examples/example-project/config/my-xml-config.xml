@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bean1" class="TestClass1" lazy-init="true">
+    </bean>
+
+    <bean id="bean2" class="TestClass2">
+        <property name="testMode" value="true" />
+    </bean>
+
+    <!-- We use mock when developing, but we need to change to the real implementation on release -->
+    <bean id="bean3" class="MockImplementationOfSomething" />
+
+</beans>

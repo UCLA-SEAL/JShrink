@@ -1,0 +1,310 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] OkHttp (Parent)
+[INFO] OkHttp
+[INFO] OkHttp test support classes
+[INFO] MockWebServer
+[INFO] OkHttp URLConnection
+[INFO] OkHttp Logging Interceptor
+[INFO] OkHttp Tests
+[INFO] OkHttp Android Platform Support
+[INFO] OkHttp Apache HttpClient
+[INFO] OkHttp Server-Sent Events
+[INFO] OkHttp DNS over HTTPS
+[INFO] OkCurl
+[INFO] Samples (Parent)
+[INFO] Sample: Guide
+[INFO] Sample: Crawler
+[INFO] Sample: Simple Client
+[INFO] Sample: Slack
+[INFO] Sample: Static Server
+[INFO] Sample: UNIX domain sockets
+[INFO] Benchmarks
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp (Parent) 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okhttp ---
+[INFO] 
+[INFO] --- templating-maven-plugin:1.0-alpha-3:filter-sources (default) @ okhttp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Source directory: /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/target/generated-sources/java-templates added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okhttp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okhttp ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 101 source files to /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/target/classes
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/src/main/java/okhttp3/OkHttpClient.java:[-1,-1] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/src/main/java/okhttp3/OkHttpClient.java uses or overrides a deprecated API.
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/src/main/java/okhttp3/OkHttpClient.java:[-1,-1] Recompile with -Xlint:deprecation for details.
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/src/main/java/okhttp3/internal/Util.java:[-1,-1] Some input files use unchecked or unsafe operations.
+[INFO] /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp/src/main/java/okhttp3/internal/Util.java:[-1,-1] Recompile with -Xlint:unchecked for details.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp test support classes 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okhttp-testing-support ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okhttp-testing-support ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-testing-support/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okhttp-testing-support ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building MockWebServer 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ mockwebserver ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ mockwebserver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/mockwebserver/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ mockwebserver ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp URLConnection 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okhttp-urlconnection ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okhttp-urlconnection ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-urlconnection/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okhttp-urlconnection ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp Logging Interceptor 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ logging-interceptor ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ logging-interceptor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-logging-interceptor/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ logging-interceptor ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp Tests 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okhttp-tests ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okhttp-tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-tests/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okhttp-tests ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp Android Platform Support 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okhttp-android-support ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okhttp-android-support ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-android-support/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okhttp-android-support ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp Apache HttpClient 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okhttp-apache ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okhttp-apache ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-apache/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okhttp-apache ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp Server-Sent Events 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okhttp-sse ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okhttp-sse ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-sse/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okhttp-sse ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkHttp DNS over HTTPS 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okhttp-dnsoverhttps ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okhttp-dnsoverhttps ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/okhttp-dnsoverhttps/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okhttp-dnsoverhttps ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OkCurl 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ okcurl ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ okcurl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ okcurl ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Samples (Parent) 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ sample-parent ---
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Sample: Guide 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ guide ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ guide ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/samples/guide/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ guide ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Sample: Crawler 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ crawler ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ crawler ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/samples/crawler/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ crawler ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Sample: Simple Client 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ simple-client ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ simple-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/samples/simple-client/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ simple-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Sample: Slack 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ slack ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ slack ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/samples/slack/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ slack ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Sample: Static Server 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ static-server ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ static-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/samples/static-server/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ static-server ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Sample: UNIX domain sockets 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ unixdomainsockets ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ unixdomainsockets ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/samples/unixdomainsockets/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ unixdomainsockets ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Benchmarks 3.11.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ benchmarks ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ benchmarks ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /media/troy/Disk2/ONR/BigQuery/sample-projects/square_okhttp/benchmarks/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ benchmarks ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] OkHttp (Parent) ................................... SUCCESS [0.226s]
+[INFO] OkHttp ............................................ SUCCESS [5.064s]
+[INFO] OkHttp test support classes ....................... SUCCESS [0.020s]
+[INFO] MockWebServer ..................................... SUCCESS [0.015s]
+[INFO] OkHttp URLConnection .............................. SUCCESS [0.022s]
+[INFO] OkHttp Logging Interceptor ........................ SUCCESS [0.010s]
+[INFO] OkHttp Tests ...................................... SUCCESS [0.223s]
+[INFO] OkHttp Android Platform Support ................... SUCCESS [0.014s]
+[INFO] OkHttp Apache HttpClient .......................... SUCCESS [0.010s]
+[INFO] OkHttp Server-Sent Events ......................... SUCCESS [0.342s]
+[INFO] OkHttp DNS over HTTPS ............................. SUCCESS [0.018s]
+[INFO] OkCurl ............................................ SUCCESS [0.024s]
+[INFO] Samples (Parent) .................................. SUCCESS [0.001s]
+[INFO] Sample: Guide ..................................... SUCCESS [0.013s]
+[INFO] Sample: Crawler ................................... SUCCESS [0.008s]
+[INFO] Sample: Simple Client ............................. SUCCESS [0.013s]
+[INFO] Sample: Slack ..................................... SUCCESS [0.008s]
+[INFO] Sample: Static Server ............................. SUCCESS [0.011s]
+[INFO] Sample: UNIX domain sockets ....................... SUCCESS [0.045s]
+[INFO] Benchmarks ........................................ SUCCESS [0.066s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.349s
+[INFO] Finished at: Fri Jul 06 23:12:28 PDT 2018
+[INFO] Final Memory: 30M/508M
+[INFO] ------------------------------------------------------------------------

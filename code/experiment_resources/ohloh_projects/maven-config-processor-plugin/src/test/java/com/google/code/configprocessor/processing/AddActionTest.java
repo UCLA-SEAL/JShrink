@@ -1,0 +1,62 @@
+/*
+ * Copyright (C) 2009 Leandro de Oliveira Aparecido <lehphyro@gmail.com>
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *         http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package com.google.code.configprocessor.processing;
+
+import org.junit.*;
+
+public class AddActionTest {
+
+	@Test(expected = ActionValidationException.class)
+	public void fileOrValueAreRequired() throws Exception {
+		AddAction action = new AddAction();
+		action.validate();
+	}
+	
+	@Test(expected = ActionValidationException.class)
+	public void cannotDefineBothFileAndValue() throws Exception {
+		AddAction action = new AddAction();
+		action.setFile("file");
+		action.setValue("value");
+		action.validate();
+	}
+
+	@Test(expected = ActionValidationException.class)
+	public void cannotAddToBothFirstAndLastPositions() throws Exception {
+		AddAction action = new AddAction();
+		action.setValue("value");
+		action.setFirst(true);
+		action.setLast(true);
+		action.validate();
+	}
+
+	@Test(expected = ActionValidationException.class)
+	public void cannotDefineAbsoluteAndRelativePositions() throws Exception {
+		AddAction action = new AddAction();
+		action.setValue("value");
+		action.setFirst(true);
+		action.setBefore("a");
+		action.validate();
+	}
+
+	@Test(expected = ActionValidationException.class)
+	public void cannotDefineInsideAndOtherPositions() throws Exception {
+		AddAction action = new AddAction();
+		action.setValue("value");
+		action.setBefore("b");
+		action.setInside("i");
+		action.validate();
+	}
+}

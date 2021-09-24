@@ -1,0 +1,29 @@
+require 'vagrant-aws'
+Vagrant.configure("2") do |config|
+  config.vm.box = 'dummy'
+
+  config.vm.provider 'aws' do |aws, override|
+    aws.access_key_id = "xxxxxxxxxxxxx"
+    aws.secret_access_key = "xxxxxxxxxxx"
+    aws.keypair_name = 'xxxxxxxxxx'
+    aws.instance_type = "r5.xlarge"
+    aws.region = 'us-east-2'
+    aws.ami = 'ami-0c55b159cbfafe1f0'
+    aws.security_groups = ['default']
+    override.ssh.username = 'ubuntu'
+    override.ssh.private_key_path = 'xxxxxxxxxxxxxxxx'
+
+    config.vm.provider "aws" do |aws|
+      aws.block_device_mapping = [{ 'DeviceName' => '/dev/sda1', 'Ebs.VolumeSize' => 50 }]
+    end
+
+  end
+
+  config.vm.provision "shell", inline: <<-SHELL
+    apt-get update
+    apt-get install -y git make gcc
+    apt-get install -y openjdk-8-jdk
+    apt install -y maven
+  SHELL
+
+end

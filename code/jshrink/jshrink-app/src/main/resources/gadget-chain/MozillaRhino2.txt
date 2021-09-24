@@ -1,0 +1,14 @@
+org.mozilla.javascript.tools.shell.Environment
+com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl
+org.mozilla.javascript.JavaAdapter
+org.mozilla.javascript.NativeError
+org.mozilla.javascript.Context
+org.mozilla.javascript.NativeJavaObject
+org.mozilla.javascript.NativeJavaArray
+org.mozilla.javascript.JavaMembers
+org.mozilla.javascript.ScriptableObject
+java.io.IOException
+java.io.ObjectOutputStream
+java.lang.reflect.Method
+java.util.Hashtable
+java.util.Map

@@ -1,0 +1,23 @@
+public class edu.ucla.cs.onr.testprograms.classcollapser.overrideinterface.original.C extends java.lang.Object implements edu.ucla.cs.onr.testprograms.classcollapser.overrideinterface.original.A
+{
+
+    public void <init>()
+    {
+        edu.ucla.cs.onr.testprograms.classcollapser.overrideinterface.original.C r0;
+
+        r0 := @this: edu.ucla.cs.onr.testprograms.classcollapser.overrideinterface.original.C;
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+        return;
+    }
+
+    public void foo()
+    {
+        edu.ucla.cs.onr.testprograms.classcollapser.overrideinterface.original.C r0;
+        java.io.PrintStream $r1;
+
+        r0 := @this: edu.ucla.cs.onr.testprograms.classcollapser.overrideinterface.original.C;
+        $r1 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke $r1.<java.io.PrintStream: void println(java.lang.String)>("class C");
+        return;
+    }
+}

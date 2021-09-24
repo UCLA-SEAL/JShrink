@@ -1,0 +1,11 @@
+com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl
+org.mozilla.javascript.NativeError
+org.mozilla.javascript.MemberBox
+org.mozilla.javascript.IdScriptableObject
+org.mozilla.javascript.Context
+org.mozilla.javascript.NativeObject
+org.mozilla.javascript.NativeJavaMethod
+javax.management.BadAttributeValueExpException
+java.lang.reflect.Constructor
+java.lang.reflect.Field
+java.lang.reflect.Method

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.1.0 http://maven.apache.org/xsd/decoration-1.1.0.xsd">
+  <bannerLeft>
+    <name>${project.name}</name>
+    <src>./images/junit-logo.png</src>
+    <href>http://junit.org/</href>
+  </bannerLeft>
+
+  <publishDate format="yyyy-MM-dd" position="right" />
+  <version position="right" />
+
+  <poweredBy>
+    <logo name="Built by Maven" href="http://maven.apache.org/" img="images/logos/maven-feather.png" />
+  </poweredBy>
+
+  <skin>
+    <groupId>org.apache.maven.skins</groupId>
+    <artifactId>maven-fluido-skin</artifactId>
+    <version>1.3.0</version>
+  </skin>
+
+  <body>
+    <head>
+      <link rel="stylesheet" href="@relativePath@/css/plain-links.css" />
+      <link rel="stylesheet" href="@relativePath@/css/carousel.css" />
+      <link rel="stylesheet" href="@relativePath@/css/junit-lambda.css" />
+    </head>
+    <breadcrumbs>
+      <item name="JUnit 4" href="http://junit.org/" />
+    </breadcrumbs>
+
+    <menu name="JUnit 4">
+      <item name="Introduction" href="index.html"/>
+      <item name="Frequently asked questions" href="faq.html"/>
+      <item name="Cookbook" href="cookbook.html"/>
+    </menu>
+
+    <menu name="Project Documentation" ref="reports" inherit="bottom" />
+
+  </body>
+
+  <custom>
+    <fluidoSkin>
+      <topBarEnabled>true</topBarEnabled>
+      <sideBarEnabled>false</sideBarEnabled>
+      <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+      <gitHub>
+        <projectId>junit-team/junit4</projectId>
+        <ribbonOrientation>right</ribbonOrientation>
+      </gitHub>
+    </fluidoSkin>
+  </custom>
+</project>

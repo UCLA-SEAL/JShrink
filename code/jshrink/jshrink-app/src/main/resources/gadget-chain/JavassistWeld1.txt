@@ -1,0 +1,14 @@
+com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl
+org.jboss.weld.interceptor.builder.InterceptionModelBuilder
+org.jboss.weld.interceptor.builder.MethodReference
+org.jboss.weld.interceptor.proxy.DefaultInvocationContextFactory
+org.jboss.weld.interceptor.proxy.InterceptorMethodHandler
+org.jboss.weld.interceptor.reader.ClassMetadataInterceptorReference
+org.jboss.weld.interceptor.reader.DefaultMethodMetadata
+org.jboss.weld.interceptor.reader.ReflectiveClassMetadata
+org.jboss.weld.interceptor.reader.SimpleInterceptorMetadata
+org.jboss.weld.interceptor.spi.instance.InterceptorInstantiator
+org.jboss.weld.interceptor.spi.metadata.InterceptorReference
+org.jboss.weld.interceptor.spi.metadata.MethodMetadata
+org.jboss.weld.interceptor.spi.model.InterceptionModel
+org.jboss.weld.interceptor.spi.model.InterceptionType

@@ -1,0 +1,143 @@
+ ------
+ Properties Processing
+ ------
+ Leandro Aparecido
+ ------
+ 2009-02-10
+ ------
+
+Properties Processing
+
+ You can add, remove or modify key-\>value associations in the properties file.
+ 
+* Adding a new association
+
+ When adding a new association, you must specify the name of the property after or before which
+ you want to add as shown below.
+
++-----+
+<processor>
+  ...
+  <add>
+    <name>property.test.example.second</name>
+    <value>example-value</value>
+    <after>property.test.example.first</after>
+  </add>
+  ...
+</processor>
++-----+
+
+ This fragment will instruct the config processor plugin to add the association
+ <property.test.example.second-\>example-value> after the property <property.test.example.first>.
+
+* Removing an association
+
+ To remove an association, you configure its name as follows.
+
++-----+
+<processor>
+  ...
+  <remove>
+    <name>property.test.example.first</name>
+  </remove>
+  ...
+</processor>
++-----+
+
+ This fragment will instruct the config processor plugin to generate the processed file without
+ the property <property.test.example.first>.
+
+* Modifying an association
+
+ To modify an association, you must define the name of the property to modify and the new value.
+
++-----+
+<processor>
+  ...
+  <modify>
+    <name>property.test.example.first</name>
+    <value></value>
+  </modify>
+  ...
+</processor>
++-----+
+
+ This fragment will instruct the config processor to clear the value of the property
+ <property.test.example.first>.
+
+* Modifying property values using Regular Expressions
+
+ As of version 1.8, it is possible to modify properties values and comments using regular
+ expressions as follows:
+
++-----+
+<processor>
+  ...
+  <modify>
+    <find>[\\w\\-]+@\\w+\\.\\w+</find>
+    <replace>my-email@domain.com</replace>
+  </modify>
+  ...
+</processor>
++-----+
+
+ This will look for e-mails in property values and comments and modify them to
+ <my-email@domain.com>.
+
+* Commenting/Uncommenting
+
+ As of version 1.5, it is possible to specify properties to comment/uncomment. Single and
+ multi-line properties are supported.
+ 
+ To comment a property, you configure its name.
+
++-----+
+<processor>
+  ...
+  <comment>
+    <name>property.test.example.first</name>
+  </comment>
+  ...
+</processor>
++-----+
+
+ Uncommenting is very simple too.
+
++-----+
+<processor>
+  ...
+  <uncomment>
+    <name>property.test.example.first</name>
+  </uncomment>
+  ...
+</processor>
++-----+
+
+ Of course, the property must be commented before it is uncommented. Uncommenting a
+ non-commented property is a no-op.
+
+* Appending files
+
+ As of version 1.8, it is possible to append entire files inside files being processed.
+ The files being appended are processed in the same context, meaning their placeholders can
+ be filtered and they properties can be manipulated.
+ 
+ Here is an example:
+
++-----+
+<processor>
+  ...
+  <add>
+    <name>property.test.example.second</name>
+    <file>src/assembly/other.properties</file>
+    <after>property.test.example.first</after>
+  </add>
+  ...
+</processor>
++-----+
+
+ This fragment will instruct the config processor plugin to append the file other.properties
+ after the property <property.test.example.first>.
+
+ The file tag can reference files in the file system, other maven artifacts, classpath resources
+ or URLs.

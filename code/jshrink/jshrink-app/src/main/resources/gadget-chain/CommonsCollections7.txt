@@ -1,0 +1,8 @@
+org.apache.commons.collections.Transformer
+org.apache.commons.collections.functors.ChainedTransformer
+org.apache.commons.collections.functors.ConstantTransformer
+org.apache.commons.collections.functors.InvokerTransformer
+org.apache.commons.collections.map.LazyMap
+java.util.HashMap
+java.util.Hashtable
+java.util.Map

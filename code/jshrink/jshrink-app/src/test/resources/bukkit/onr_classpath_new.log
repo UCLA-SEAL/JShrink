@@ -1,0 +1,16 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Bukkit 1.7.10-R0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.1:build-classpath (default-cli) @ bukkit ---
+[INFO] Dependencies classpath:
+/media/troy/Disk2/ONR/maven/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/media/troy/Disk2/ONR/maven/repository/com/google/guava/guava/10.0.1/guava-10.0.1.jar:/media/troy/Disk2/ONR/maven/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/media/troy/Disk2/ONR/maven/repository/commons-lang/commons-lang/2.3/commons-lang-2.3.jar:/media/troy/Disk2/ONR/maven/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar:/media/troy/Disk2/ONR/maven/repository/junit/junit/4.11/junit-4.11.jar:/media/troy/Disk2/ONR/maven/repository/org/avaje/ebean/2.7.3/ebean-2.7.3.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/media/troy/Disk2/ONR/maven/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/media/troy/Disk2/ONR/maven/repository/org/yaml/snakeyaml/1.9/snakeyaml-1.9.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.511s
+[INFO] Finished at: Tue Aug 07 21:45:09 PDT 2018
+[INFO] Final Memory: 10M/298M
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,61 @@
+<assembly>
+	<id>ant-task</id>
+
+	<formats>
+		<format>dir</format>
+        <format>zip</format>
+	</formats>
+
+	<baseDirectory>config-processor</baseDirectory>
+
+	<fileSets>
+        <fileSet>
+            <directory>${basedir}/src/assembly/txt</directory>
+            <outputDirectory>/</outputDirectory>
+            <fileMode>0755</fileMode>
+            <lineEnding>lf</lineEnding>
+            <filtered>true</filtered>
+        </fileSet>
+        <fileSet>
+            <directory>${basedir}/src/assembly/examples</directory>
+            <outputDirectory>/examples</outputDirectory>
+            <fileMode>0755</fileMode>
+            <lineEnding>lf</lineEnding>
+            <filtered>true</filtered>
+        </fileSet>
+        <fileSet>
+            <directory>${project.build.directory}/site</directory>
+            <outputDirectory>docs/site</outputDirectory>
+            <fileMode>0755</fileMode>
+        </fileSet>
+	</fileSets>
+
+	<dependencySets>
+		<dependencySet>
+			<outputDirectory>lib</outputDirectory>
+			<outputFileNameMapping>${artifact.artifactId}${dashClassifier?}.${artifact.extension}</outputFileNameMapping>
+            <excludes>
+                <exclude>org.apache.maven:*</exclude>
+                <exclude>org.apache.maven.doxia:*</exclude>
+                <exclude>org.apache.maven.reporting:*</exclude>
+				<exclude>org.apache.maven.shared:*</exclude>
+                <exclude>org.apache.maven.wagon:*</exclude>
+                <exclude>org.codehaus.plexus:plexus-interactivity-api</exclude>
+                <exclude>org.codehaus.plexus:plexus-utils</exclude>
+                <exclude>org.apache.ant:*</exclude>
+                <exclude>classworlds:*</exclude>
+                <exclude>commons-cli:*</exclude>
+                <exclude>commons-httpclient:*</exclude>
+                <exclude>commons-logging:*</exclude>
+                <exclude>jdom:*</exclude>
+                <exclude>jtidy:*</exclude>
+                <exclude>xml-apis:*</exclude>
+                <exclude>com.jcraft:*</exclude>
+                <exclude>de.zeigermann.xml:*</exclude>
+                <exclude>slide:*</exclude>
+                <exclude>junit:*</exclude>
+            </excludes>
+		</dependencySet>
+	</dependencySets>
+
+</assembly>

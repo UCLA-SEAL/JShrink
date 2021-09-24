@@ -1,0 +1,7 @@
+javax.management.BadAttributeValueExpException
+org.apache.commons.collections.Transformer
+org.apache.commons.collections.functors.ChainedTransformer
+org.apache.commons.collections.functors.ConstantTransformer
+org.apache.commons.collections.functors.InvokerTransformer
+org.apache.commons.collections.keyvalue.TiedMapEntry
+org.apache.commons.collections.map.LazyMap

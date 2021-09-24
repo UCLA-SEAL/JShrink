@@ -1,0 +1,29 @@
+<processor>
+    <add>
+        <value>
+            <![CDATA[
+                <property name="addedProperty" value="${example-project.property1}" />
+            ]]>
+        </value>
+        <after>//s:beans/s:bean[@id='bean2']/s:property[@name='testMode']</after>
+    </add>
+
+    <modify>
+        <name>//s:bean[@id='bean2']/s:property[@name='testMode']/@value</name>
+        <value>false</value>
+    </modify>
+
+    <remove>
+        <name>/s:beans/s:bean[@id='bean1']/@lazy-init</name>
+    </remove>
+
+    <modify>
+        <name>/s:beans/s:bean[@id='bean3']</name>
+        <value>
+            <![CDATA[
+                <bean id="bean3" class="ActualImplementationOfSomething" />
+            ]]>
+        </value>
+    </modify>
+
+</processor>

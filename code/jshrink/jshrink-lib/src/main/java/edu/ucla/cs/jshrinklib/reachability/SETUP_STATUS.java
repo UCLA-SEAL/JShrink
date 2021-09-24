@@ -1,0 +1,9 @@
+package edu.ucla.cs.jshrinklib.reachability;
+
+public enum SETUP_STATUS {
+	SUCCESS,
+	BUILD_FAILED,
+	TESTING_CRASH,
+	CANNOT_OBTAIN_DEPENDENCY,
+	CANNOT_OBTAIN_DEPENDENCY_COMPILE_SCOPE;
+}

@@ -1,0 +1,5 @@
+clojure.inspector.proxy$javax.swing.table.AbstractTableModel$ff19274a
+clojure.lang.PersistentArrayMap
+java.util.Arrays
+java.util.HashMap
+java.util.Map

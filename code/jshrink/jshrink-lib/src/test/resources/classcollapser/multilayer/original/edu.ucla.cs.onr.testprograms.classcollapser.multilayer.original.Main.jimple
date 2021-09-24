@@ -1,0 +1,34 @@
+public class edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.Main extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.Main r0;
+
+        r0 := @this: edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.Main;
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+        return;
+    }
+
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] r0;
+        edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.C $r1, r2, r3, r4, $r5, $r6;
+
+        r0 := @parameter0: java.lang.String[];
+        $r1 = new edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.C;
+        specialinvoke $r1.<edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.C: void <init>()>();
+        r2 = $r1;
+        virtualinvoke r2.<edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.A: void foo()>();
+        $r5 = new edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.C;
+        specialinvoke $r5.<edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.C: void <init>()>();
+        r3 = $r5;
+        virtualinvoke r3.<edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.B: void foo()>();
+        $r6 = new edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.C;
+        specialinvoke $r6.<edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.C: void <init>()>();
+        r4 = $r6;
+        virtualinvoke r4.<edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.C: void foo()>();
+        virtualinvoke r4.<edu.ucla.cs.jshrinkapp.testprograms.classcollapser.multilayer.original.C: void boo()>();
+        return;
+    }
+}

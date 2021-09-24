@@ -1,0 +1,23 @@
+public class edu.ucla.cs.jshrinkapp.testprograms.classcollapser.bothused.original.A extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        edu.ucla.cs.jshrinkapp.testprograms.classcollapser.bothused.original.A r0;
+
+        r0 := @this: edu.ucla.cs.jshrinkapp.testprograms.classcollapser.bothused.original.A;
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+        return;
+    }
+
+    public void foo()
+    {
+        edu.ucla.cs.jshrinkapp.testprograms.classcollapser.bothused.original.A r0;
+        java.io.PrintStream $r1;
+
+        r0 := @this: edu.ucla.cs.jshrinkapp.testprograms.classcollapser.bothused.original.A;
+        $r1 = <java.lang.System: java.io.PrintStream out>;
+        virtualinvoke $r1.<java.io.PrintStream: void println(java.lang.String)>("class A, foo called");
+        return;
+    }
+}

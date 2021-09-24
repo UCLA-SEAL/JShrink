@@ -1,0 +1,11 @@
+java.lang.reflect.InvocationHandler
+java.lang.reflect.Type
+javax.xml.transform.Templates
+org.springframework.aop.framework.AdvisedSupport
+org.springframework.aop.target.SingletonTargetSource
+com.sun.org.apache.xalan.internal.xsltc.trax.TemplatesImpl
+org.springframework.aop.support.AopUtils
+org.springframework.aop.framework.JdkDynamicAopProxy
+org.springframework.core.SerializableTypeWrapper
+org.springframework.core.SerializableTypeWrapper$TypeProvider
+org.springframework.core.SerializableTypeWrapper$MethodInvokeTypeProvider

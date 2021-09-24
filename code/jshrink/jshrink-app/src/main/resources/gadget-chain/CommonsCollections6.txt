@@ -1,0 +1,11 @@
+org.apache.commons.collections.Transformer
+org.apache.commons.collections.functors.ChainedTransformer
+org.apache.commons.collections.functors.ConstantTransformer
+org.apache.commons.collections.functors.InvokerTransformer
+org.apache.commons.collections.keyvalue.TiedMapEntry
+org.apache.commons.collections.map.LazyMap
+java.io.Serializable
+java.lang.reflect.Field
+java.util.HashMap
+java.util.HashSet
+java.util.Map

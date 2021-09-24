@@ -1,0 +1,8 @@
+java.util.PriorityQueue
+java.util.Queue
+javax.xml.transform.Templates
+org.apache.commons.collections4.Transformer
+org.apache.commons.collections4.comparators.TransformingComparator
+org.apache.commons.collections4.functors.ChainedTransformer
+org.apache.commons.collections4.functors.ConstantTransformer
+org.apache.commons.collections4.functors.InstantiateTransformer

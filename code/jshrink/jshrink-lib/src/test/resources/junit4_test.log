@@ -1,0 +1,630 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building JUnit 4.13-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-versions) @ junit ---
+[INFO] 
+[INFO] --- replacer:1.5.3:replace (default) @ junit ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ junit ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ junit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 208 source files to /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/target/classes
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/main/java/junit/extensions/TestDecorator.java:[3,22] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/main/java/org/junit/rules/ExpectedException.java:[8,41] [deprecation] ThrowableCauseMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/main/java/org/junit/matchers/JUnitMatchers.java:[7,34] [deprecation] StacktracePrintingMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/main/java/org/junit/rules/ExpectedExceptionMatcherBuilder.java:[4,32] [deprecation] JUnitMatchers in org.junit.matchers has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/main/java/org/junit/internal/runners/statements/FailOnTimeout.java:[109,11] no description for @param
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/main/java/org/junit/internal/Classes.java:[24,7] no description for @throws
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/main/java/org/junit/internal/Classes.java:[37,7] no description for @throws
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/main/java/org/junit/runner/FilterFactories.java:[19,7] no description for @throws
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/main/java/org/junit/runner/JUnitCore.java:[66,7] no description for @param
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/main/java/org/junit/runner/notification/SynchronizedRunListener.java:[67,7] no description for @throws
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ junit ---
+[INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ junit ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 242 source files to /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/target/test-classes
+[WARNING] To suppress warnings about obsolete options, use -Xlint:-options.
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/runners/parameterized/TestWithParametersTest.java:[6,29] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/runners/parameterized/TestWithParametersTest.java:[13,22] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/ExternalResourceRuleTest.java:[12,41] [deprecation] ThrowableCauseMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/RuleChainTest.java:[11,29] [deprecation] RuleChain in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/runners/model/FrameworkFieldTest.java:[7,29] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/runners/model/FrameworkFieldTest.java:[15,22] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/internal/matchers/StacktracePrintingMatcherTest.java:[10,41] [deprecation] StacktracePrintingMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/internal/matchers/StacktracePrintingMatcherTest.java:[11,41] [deprecation] StacktracePrintingMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithParameterSupplier.java:[18,22] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParametersTest.java:[6,29] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/runners/parameterized/BlockJUnit4ClassRunnerWithParametersTest.java:[18,22] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/deprecated/JUnit4ClassRunnerTest.java:[8,33] [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/runners/model/TestClassTest.java:[16,22] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/runner/FilterFactoriesTest.java:[11,22] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/validation/BadlyFormedClassesTest.java:[9,33] [deprecation] JUnit4ClassRunner in org.junit.internal.runners has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/internal/AllMembersSupplierTest.java:[20,22] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/validator/AnnotationValidatorFactoryTest.java:[8,22] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/runners/model/FrameworkMethodTest.java:[7,29] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/runners/model/FrameworkMethodTest.java:[15,22] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestWatchmanTest.java:[3,29] [deprecation] Assert in junit.framework has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[10,29] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/experimental/categories/CategoryFilterFactoryTest.java:[11,22] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/runner/JUnitCommandLineParseResultTest.java:[13,22] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/internal/matchers/ThrowableCauseMatcherTest.java:[7,41] [deprecation] ThrowableCauseMatcher in org.junit.internal.matchers has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/ExpectedExceptionTest.java:[13,29] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/ExternalResourceRuleTest.java:[140,64] [deprecation] AssumptionViolatedException(String) in AssumptionViolatedException has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestRuleTest.java:[177,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestRuleTest.java:[192,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestRuleTest.java:[202,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestRuleTest.java:[217,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestRuleTest.java:[247,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestRuleTest.java:[425,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestRuleTest.java:[435,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestRuleTest.java:[452,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestRuleTest.java:[472,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestRuleTest.java:[514,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[98,21] [deprecation] RuleChain in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[98,39] [deprecation] RuleChain in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[172,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[173,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[174,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[176,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[183,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[184,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[185,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[187,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[194,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[195,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[196,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/StopwatchTest.java:[198,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/VerifierRuleTest.java:[33,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/TestWatcherTest.java:[359,25] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/validator/AnnotationsValidatorTest.java:[94,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/validator/AnnotationsValidatorTest.java:[95,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/internal/ParameterizedAssertionErrorTest.java:[43,8] [deprecation] <T>assumeThat(T,Matcher<T>) in Assume has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assumeThat(T,Matcher<T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/internal/ParameterizedAssertionErrorTest.java:[44,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/internal/ParameterizedAssertionErrorTest.java:[50,8] [deprecation] <T>assumeThat(T,Matcher<T>) in Assume has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assumeThat(T,Matcher<T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/internal/ParameterizedAssertionErrorTest.java:[51,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/internal/ParameterizedAssertionErrorTest.java:[57,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/internal/ParameterizedAssertionErrorTest.java:[69,8] [deprecation] <T>assumeThat(T,Matcher<T>) in Assume has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assumeThat(T,Matcher<T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/internal/ParameterizedAssertionErrorTest.java:[71,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/internal/ParameterizedAssertionErrorTest.java:[76,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/internal/ParameterizedAssertionErrorTest.java:[88,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/running/classes/ParentRunnerFilteringTest.java:[134,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/parallel/ParallelMethodTest.java:[59,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/runners/parameterized/TestWithParametersTest.java:[26,17] [deprecation] ExpectedException in org.junit.rules has been deprecated
+[WARNING] /media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java:[26,12] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java:[32,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java:[47,12] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java:[53,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java:[63,12] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java:[69,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java:[84,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java:[104,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java:[126,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java:[158,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithExtendedParameterSources.java:[178,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/rules/ClassRulesTest.java:[148,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/max/MaxStarterTest.java:[259,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/max/MaxStarterTest.java:[260,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/max/MaxStarterTest.java:[261,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/max/MaxStarterTest.java:[275,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/max/MaxStarterTest.java:[288,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/max/MaxStarterTest.java:[289,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/max/MaxStarterTest.java:[290,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithOnlyTestAnnotations.java:[29,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithOnlyTestAnnotations.java:[42,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithOnlyTestAnnotations.java:[61,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/WithOnlyTestAnnotations.java:[80,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[697,12] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[710,12] [deprecation] <T>assertThat(String,T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(String,T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/assertion/AssertionTest.java:[726,12] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/UnsuccessfulWithDataPointFields.java:[27,12] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/UnsuccessfulWithDataPointFields.java:[33,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/UnsuccessfulWithDataPointFields.java:[39,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[WARNING]   where T is a type-variable:
+    T extends Object declared in method <T>assertThat(T,Matcher<? super T>)
+/media/troy/Disk2/ONR/BigQuery/sample-projects/junit-team_junit4/src/test/java/org/junit/tests/experimental/theories/runner/UnsuccessfulWithDataPointFields.java:[45,8] [deprecation] <T>assertThat(T,Matcher<? super T>) in Assert has been deprecated
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ junit ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.junit.tests.assertion.AssertionTest
+Tests run: 98, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in org.junit.tests.assertion.AssertionTest
+Running org.junit.tests.assertion.ComparisonFailureTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.assertion.ComparisonFailureTest
+Running org.junit.tests.assertion.MultipleFailureExceptionTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.assertion.MultipleFailureExceptionTest
+Running org.junit.tests.deprecated.JUnit4ClassRunnerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.deprecated.JUnit4ClassRunnerTest
+Running org.junit.tests.description.AnnotatedDescriptionTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.description.AnnotatedDescriptionTest
+Running org.junit.tests.description.SuiteDescriptionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.description.SuiteDescriptionTest
+Running org.junit.tests.description.TestDescriptionMethodNameTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.description.TestDescriptionMethodNameTest
+Running org.junit.tests.description.TestDescriptionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.description.TestDescriptionTest
+Running org.junit.experimental.categories.CategoriesAndParameterizedTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in org.junit.experimental.categories.CategoriesAndParameterizedTest
+Running org.junit.experimental.categories.CategoryFilterFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.junit.experimental.categories.CategoryFilterFactoryTest
+Running org.junit.experimental.categories.CategoryTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 sec - in org.junit.experimental.categories.CategoryTest
+Running org.junit.experimental.categories.CategoryValidatorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.junit.experimental.categories.CategoryValidatorTest
+Running org.junit.experimental.categories.JavadocTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.junit.experimental.categories.JavadocTest
+Running org.junit.experimental.categories.MultiCategoryTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in org.junit.experimental.categories.MultiCategoryTest
+Running org.junit.tests.experimental.max.DescriptionTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.junit.tests.experimental.max.DescriptionTest
+Running org.junit.tests.experimental.max.JUnit38SortingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in org.junit.tests.experimental.max.JUnit38SortingTest
+Running org.junit.tests.experimental.max.MaxStarterTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.457 sec - in org.junit.tests.experimental.max.MaxStarterTest
+Running org.junit.tests.experimental.parallel.ParallelClassTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.junit.tests.experimental.parallel.ParallelClassTest
+Running org.junit.tests.experimental.parallel.ParallelMethodTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.junit.tests.experimental.parallel.ParallelMethodTest
+Running org.junit.tests.experimental.results.PrintableResultTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in org.junit.tests.experimental.results.PrintableResultTest
+Running org.junit.tests.experimental.results.ResultMatchersTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.results.ResultMatchersTest
+Running org.junit.tests.experimental.theories.internal.AllMembersSupplierTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.junit.tests.experimental.theories.internal.AllMembersSupplierTest
+Running org.junit.tests.experimental.theories.internal.ParameterizedAssertionErrorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.junit.tests.experimental.theories.internal.ParameterizedAssertionErrorTest
+Running org.junit.tests.experimental.theories.internal.SpecificDataPointsSupplierTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.junit.tests.experimental.theories.internal.SpecificDataPointsSupplierTest
+Running org.junit.tests.experimental.theories.runner.FailingDataPointMethods
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.junit.tests.experimental.theories.runner.FailingDataPointMethods
+Running org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$StaticPublicNonDataPoints
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$StaticPublicNonDataPoints
+Running org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$OneTestTwoAnnotations
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$OneTestTwoAnnotations
+Running org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$BeforeAndAfterEachTime
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$BeforeAndAfterEachTime
+Running org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$DifferentTypesInConstructor
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$DifferentTypesInConstructor
+Running org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$PositiveIntsWithMethodParams
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$PositiveIntsWithMethodParams
+Running org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$PositiveIntsWithNegativeField
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$PositiveIntsWithNegativeField
+Running org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$PositiveInts
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$PositiveInts
+Running org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$NewObjectEachTime
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$NewObjectEachTime
+Running org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$BeforeAndAfterOnSameInstance
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$BeforeAndAfterOnSameInstance
+Running org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$HasATwoParameterTheory
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.runner.SuccessfulWithDataPointFields$HasATwoParameterTheory
+Running org.junit.tests.experimental.theories.runner.TheoriesPerformanceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.runner.TheoriesPerformanceTest
+Running org.junit.tests.experimental.theories.runner.TypeMatchingBetweenMultiDataPointsMethod
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.experimental.theories.runner.TypeMatchingBetweenMultiDataPointsMethod
+Running org.junit.tests.experimental.theories.runner.UnsuccessfulWithDataPointFields
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec - in org.junit.tests.experimental.theories.runner.UnsuccessfulWithDataPointFields
+Running org.junit.tests.experimental.theories.runner.WhenNoParametersMatch
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.junit.tests.experimental.theories.runner.WhenNoParametersMatch
+Running org.junit.tests.experimental.theories.runner.WithAutoGeneratedDataPoints
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.junit.tests.experimental.theories.runner.WithAutoGeneratedDataPoints
+Running org.junit.tests.experimental.theories.runner.WithDataPointMethod
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.junit.tests.experimental.theories.runner.WithDataPointMethod
+Running org.junit.tests.experimental.theories.runner.WithExtendedParameterSources
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.junit.tests.experimental.theories.runner.WithExtendedParameterSources
+Running org.junit.tests.experimental.theories.runner.WithNamedDataPoints
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.runner.WithNamedDataPoints
+Running org.junit.tests.experimental.theories.runner.WithOnlyTestAnnotations
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.junit.tests.experimental.theories.runner.WithOnlyTestAnnotations
+Running org.junit.tests.experimental.theories.runner.WithParameterSupplier
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.junit.tests.experimental.theories.runner.WithParameterSupplier
+Running org.junit.tests.experimental.theories.runner.WithUnresolvedGenericTypeVariablesOnTheoryParms
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in org.junit.tests.experimental.theories.runner.WithUnresolvedGenericTypeVariablesOnTheoryParms
+Running org.junit.tests.experimental.theories.ParameterSignatureTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.ParameterSignatureTest
+Running org.junit.tests.experimental.theories.TestedOnSupplierTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.TestedOnSupplierTest
+Running org.junit.tests.experimental.theories.AssumingInTheoriesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.AssumingInTheoriesTest
+Running org.junit.tests.experimental.theories.PotentialAssignmentTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.experimental.theories.PotentialAssignmentTest
+Running org.junit.tests.experimental.AssumptionTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in org.junit.tests.experimental.AssumptionTest
+Running org.junit.tests.experimental.MatcherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.junit.tests.experimental.MatcherTest
+Running org.junit.tests.experimental.theories.extendingwithstubs.StubbedTheoriesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.junit.tests.experimental.theories.extendingwithstubs.StubbedTheoriesTest
+Running org.junit.internal.builders.AnnotatedBuilderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.internal.builders.AnnotatedBuilderTest
+Running org.junit.internal.ChecksTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.internal.ChecksTest
+Running org.junit.internal.runners.ErrorReportingRunnerTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.internal.runners.ErrorReportingRunnerTest
+Running org.junit.internal.runners.statements.ExpectExceptionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.internal.runners.statements.ExpectExceptionTest
+Running org.junit.internal.runners.statements.FailOnTimeoutTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.75 sec - in org.junit.internal.runners.statements.FailOnTimeoutTest
+Running org.junit.internal.MethodSorterTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.junit.internal.MethodSorterTest
+Running org.junit.internal.matchers.StacktracePrintingMatcherTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.internal.matchers.StacktracePrintingMatcherTest
+Running org.junit.internal.StackTracesTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.junit.internal.StackTracesTest
+Running org.junit.internal.matchers.ThrowableCauseMatcherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.internal.matchers.ThrowableCauseMatcherTest
+Running org.junit.internal.ArrayComparisonFailureTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.junit.internal.ArrayComparisonFailureTest
+Running org.junit.tests.junit3compatibility.AllTestsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.junit3compatibility.AllTestsTest
+Running org.junit.tests.junit3compatibility.ClassRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.junit3compatibility.ClassRequestTest
+Running org.junit.tests.junit3compatibility.ForwardCompatibilityPrintingTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.junit.tests.junit3compatibility.ForwardCompatibilityPrintingTest
+Running org.junit.tests.junit3compatibility.ForwardCompatibilityTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.junit.tests.junit3compatibility.ForwardCompatibilityTest
+Running org.junit.tests.junit3compatibility.InitializationErrorForwardCompatibilityTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.junit3compatibility.InitializationErrorForwardCompatibilityTest
+Running org.junit.tests.junit3compatibility.JUnit38ClassRunnerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.junit.tests.junit3compatibility.JUnit38ClassRunnerTest
+Running org.junit.tests.junit3compatibility.JUnit4TestAdapterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.junit.tests.junit3compatibility.JUnit4TestAdapterTest
+Running org.junit.tests.junit3compatibility.OldTestClassAdaptingListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.junit3compatibility.OldTestClassAdaptingListenerTest
+Running junit.tests.framework.TestCaseTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in junit.tests.framework.TestCaseTest
+Running junit.tests.framework.SuiteTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.framework.SuiteTest
+Running junit.tests.framework.TestListenerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.framework.TestListenerTest
+Running junit.tests.framework.AssertionFailedErrorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in junit.tests.framework.AssertionFailedErrorTest
+Running junit.tests.framework.AssertTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.framework.AssertTest
+Running junit.tests.framework.TestImplementorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.framework.TestImplementorTest
+Running junit.tests.framework.NoArgTestCaseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.framework.NoArgTestCaseTest
+Running junit.tests.framework.ComparisonCompactorTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in junit.tests.framework.ComparisonCompactorTest
+Running junit.tests.framework.ComparisonFailureTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.framework.ComparisonFailureTest
+Running junit.tests.framework.DoublePrecisionAssertTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.framework.DoublePrecisionAssertTest
+Running junit.tests.framework.FloatAssertTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.framework.FloatAssertTest
+Running junit.tests.runner.StackFilterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.runner.StackFilterTest
+Running junit.tests.runner.ResultTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec - in junit.tests.runner.ResultTest
+Running junit.tests.runner.BaseTestRunnerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.runner.BaseTestRunnerTest
+Running junit.tests.runner.TextFeedbackTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in junit.tests.runner.TextFeedbackTest
+Running junit.tests.runner.TextRunnerSingleMethodTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.runner.TextRunnerSingleMethodTest
+Running junit.tests.runner.TextRunnerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.215 sec - in junit.tests.runner.TextRunnerTest
+Running junit.tests.extensions.ExtensionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.extensions.ExtensionTest
+Running junit.tests.extensions.ActiveTestTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec - in junit.tests.extensions.ActiveTestTest
+Running junit.tests.extensions.RepeatedTestTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in junit.tests.extensions.RepeatedTestTest
+Running org.junit.tests.junit3compatibility.SuiteMethodTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.junit.tests.junit3compatibility.SuiteMethodTest
+Running org.junit.tests.listening.ListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.listening.ListenerTest
+Running org.junit.tests.listening.RunnerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.listening.RunnerTest
+Running org.junit.tests.listening.TestListenerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.listening.TestListenerTest
+Running org.junit.tests.listening.TextListenerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.listening.TextListenerTest
+Running org.junit.tests.listening.UserStopTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.listening.UserStopTest
+Running org.junit.tests.manipulation.FilterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.manipulation.FilterableTest
+Running org.junit.tests.manipulation.FilterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.manipulation.FilterTest
+Running org.junit.tests.manipulation.SingleMethodTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.junit.tests.manipulation.SingleMethodTest
+Running org.junit.tests.manipulation.SortableTest$UnsortableRunnersAreHandledWithoutCrashing
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.manipulation.SortableTest$UnsortableRunnersAreHandledWithoutCrashing
+Running org.junit.tests.manipulation.SortableTest$TestClassRunnerIsSortableWithSuiteMethod
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.manipulation.SortableTest$TestClassRunnerIsSortableWithSuiteMethod
+Running org.junit.tests.manipulation.SortableTest$TestClassRunnerIsSortable
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.junit.tests.manipulation.SortableTest$TestClassRunnerIsSortable
+Running org.junit.rules.BlockJUnit4ClassRunnerOverrideTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.junit.rules.BlockJUnit4ClassRunnerOverrideTest
+Running org.junit.rules.ClassRulesTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in org.junit.rules.ClassRulesTest
+Running org.junit.rules.DisableOnDebugTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.junit.rules.DisableOnDebugTest
+Running org.junit.rules.ErrorCollectorTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.junit.rules.ErrorCollectorTest
+Running org.junit.rules.ExpectedExceptionTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.junit.rules.ExpectedExceptionTest
+Running org.junit.rules.ExternalResourceRuleTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.rules.ExternalResourceRuleTest
+Running org.junit.rules.MethodRulesTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in org.junit.rules.MethodRulesTest
+Running org.junit.rules.NameRulesTest$BeforeAndAfterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.rules.NameRulesTest$BeforeAndAfterTest
+Running org.junit.rules.NameRulesTest$TestNames
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.rules.NameRulesTest$TestNames
+Running org.junit.rules.RuleChainTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.rules.RuleChainTest
+Running org.junit.rules.RuleMemberValidatorTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.junit.rules.RuleMemberValidatorTest
+Running org.junit.rules.StopwatchTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.junit.rules.StopwatchTest
+Running org.junit.rules.TempFolderRuleTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.junit.rules.TempFolderRuleTest
+Running org.junit.rules.TemporaryFolderRuleAssuredDeletionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.rules.TemporaryFolderRuleAssuredDeletionTest
+Running org.junit.rules.TemporaryFolderUsageTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in org.junit.rules.TemporaryFolderUsageTest
+Running org.junit.rules.TestRuleTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in org.junit.rules.TestRuleTest
+Running org.junit.rules.TestWatcherTest$InterplayWithOtherRules
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.rules.TestWatcherTest$InterplayWithOtherRules
+Running org.junit.rules.TestWatcherTest$CallbackArguments
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.junit.rules.TestWatcherTest$CallbackArguments
+Running org.junit.rules.TestWatcherTest$Callbacks
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in org.junit.rules.TestWatcherTest$Callbacks
+Running org.junit.rules.TestWatchmanTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.rules.TestWatchmanTest
+Running org.junit.rules.TimeoutRuleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.016 sec - in org.junit.rules.TimeoutRuleTest
+Running org.junit.rules.VerifierRuleTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.rules.VerifierRuleTest
+Running org.junit.runners.model.FrameworkFieldTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.runners.model.FrameworkFieldTest
+Running org.junit.runners.model.FrameworkMethodTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.runners.model.FrameworkMethodTest
+Running org.junit.runners.model.InvalidTestClassErrorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.runners.model.InvalidTestClassErrorTest
+Running org.junit.runners.model.TestClassTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.junit.runners.model.TestClassTest
+Running org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParametersTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.junit.runners.parameterized.BlockJUnit4ClassRunnerWithParametersTest
+Running org.junit.runners.parameterized.ParameterizedNamesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.runners.parameterized.ParameterizedNamesTest
+Running org.junit.runners.parameterized.TestWithParametersTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.runners.parameterized.TestWithParametersTest
+Running org.junit.runners.RuleContainerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.runners.RuleContainerTest
+Running org.junit.runners.CustomBlockJUnit4ClassRunnerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.runners.CustomBlockJUnit4ClassRunnerTest
+Running org.junit.runner.notification.ConcurrentRunNotifierTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in org.junit.runner.notification.ConcurrentRunNotifierTest
+Running org.junit.runner.notification.RunNotifierTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.runner.notification.RunNotifierTest
+Running org.junit.runner.notification.SynchronizedRunListenerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.runner.notification.SynchronizedRunListenerTest
+Running org.junit.runner.FilterFactoriesTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.junit.runner.FilterFactoriesTest
+Running org.junit.runner.FilterOptionIntegrationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in org.junit.runner.FilterOptionIntegrationTest
+Running org.junit.runner.JUnitCommandLineParseResultTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.runner.JUnitCommandLineParseResultTest
+Running org.junit.runner.JUnitCoreTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.runner.JUnitCoreTest
+Running org.junit.runner.RequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.runner.RequestTest
+Running org.junit.tests.running.classes.BlockJUnit4ClassRunnerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.running.classes.BlockJUnit4ClassRunnerTest
+Running org.junit.tests.running.classes.ClassLevelMethodsWithIgnoredTestsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.junit.tests.running.classes.ClassLevelMethodsWithIgnoredTestsTest
+Running org.junit.tests.running.classes.EnclosedTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.running.classes.EnclosedTest
+Running org.junit.tests.running.classes.IgnoreClassTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.running.classes.IgnoreClassTest
+Running org.junit.tests.running.classes.ParameterizedTestTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in org.junit.tests.running.classes.ParameterizedTestTest
+Running org.junit.tests.running.classes.ParentRunnerFilteringTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.junit.tests.running.classes.ParentRunnerFilteringTest
+Running org.junit.tests.running.classes.ParentRunnerTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.junit.tests.running.classes.ParentRunnerTest
+Running org.junit.tests.running.classes.parent.ParentRunnerClassLoaderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.running.classes.parent.ParentRunnerClassLoaderTest
+Running org.junit.tests.running.classes.RunWithTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.running.classes.RunWithTest
+Running org.junit.tests.running.classes.SuiteTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.running.classes.SuiteTest
+Running org.junit.tests.running.classes.UseSuiteAsASuperclassTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.running.classes.UseSuiteAsASuperclassTest
+Running org.junit.tests.running.core.CommandLineTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in org.junit.tests.running.core.CommandLineTest
+Running org.junit.tests.running.core.JUnitCoreReturnsCorrectExitCodeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in org.junit.tests.running.core.JUnitCoreReturnsCorrectExitCodeTest
+Running org.junit.tests.running.core.SystemExitTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec - in org.junit.tests.running.core.SystemExitTest
+Running org.junit.tests.running.methods.AnnotationTest
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in org.junit.tests.running.methods.AnnotationTest
+Running org.junit.tests.running.methods.ExpectedTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.running.methods.ExpectedTest
+Running org.junit.tests.running.methods.InheritedTestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.running.methods.InheritedTestTest
+Running org.junit.tests.running.methods.ParameterizedTestMethodTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.running.methods.ParameterizedTestMethodTest
+Running org.junit.tests.running.methods.TestMethodTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.running.methods.TestMethodTest
+Running org.junit.tests.running.methods.TimeoutTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.718 sec - in org.junit.tests.running.methods.TimeoutTest
+Running org.junit.samples.ListTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.samples.ListTest
+Running org.junit.samples.money.MoneyTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.samples.money.MoneyTest
+Running org.junit.tests.validation.BadlyFormedClassesTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.validation.BadlyFormedClassesTest
+Running org.junit.tests.validation.FailedConstructionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.validation.FailedConstructionTest
+Running org.junit.tests.validation.ValidationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.tests.validation.ValidationTest
+Running org.junit.validator.AnnotationsValidatorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.validator.AnnotationsValidatorTest
+Running org.junit.validator.AnnotationValidatorFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.validator.AnnotationValidatorFactoryTest
+Running org.junit.validator.PublicClassValidatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.validator.PublicClassValidatorTest
+Running org.junit.AssumptionViolatedExceptionTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in org.junit.AssumptionViolatedExceptionTest
+Running org.junit.tests.ObjectContractTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.junit.tests.ObjectContractTest
+
+Results :
+
+Tests run: 1060, Failures: 0, Errors: 0, Skipped: 3
+
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.14:check (signature-check) @ junit ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java15:1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 13.344s
+[INFO] Finished at: Sat Jul 07 22:54:13 PDT 2018
+[INFO] Final Memory: 12M/298M
+[INFO] ------------------------------------------------------------------------

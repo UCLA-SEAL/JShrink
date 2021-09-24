@@ -1,0 +1,8 @@
+javax.naming.InitialContext.InitialContext
+com.sun.rowset.JdbcRowSetImpl
+org.hibernate.property.access.spi.GetterMethodImpl
+org.hibernate.tuple.component.AbstractComponentTuplizer
+org.hibernate.type.ComponentType
+org.hibernate.engine.spi.TypedValue$1
+org.hibernate.internal.util.ValueHolder
+org.hibernate.engine.spi.TypedValue

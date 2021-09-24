@@ -1,0 +1,10 @@
+java.lang.reflect.Constructor
+java.lang.reflect.InvocationHandler
+java.lang.reflect.Type
+javax.xml.transform.Templates
+org.springframework.beans.factory.ObjectFactory
+org.springframework.beans.factory.support.AutowireUtils
+org.springframework.beans.factory.support.AutowireUtils$ObjectFactoryDelegatingInvocationHandler
+org.springframework.core.SerializableTypeWrapper
+org.springframework.core.SerializableTypeWrapper$TypeProvider
+org.springframework.core.SerializableTypeWrapper$MethodInvokeTypeProvider

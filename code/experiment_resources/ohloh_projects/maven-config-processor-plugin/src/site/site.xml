@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <body>
+        <menu name="Overview">
+            <item name="Introduction" href="index.html" />
+            <item name="Goals" href="plugin-info.html" />
+            <item name="Usage" href="usage.html" />
+            <item name="FAQ" href="faq.html" />
+        </menu>
+        <menu name="Examples">
+            <item name="Properties Processing" href="examples/properties-processing.html" />
+            <item name="XML Processing" href="examples/xml-processing.html" />
+            <item name="Ant Task" href="examples/ant-task.html" />
+        </menu>
+        <menu ref="reports" />
+    </body>
+    
+    <skin>
+        <groupId>org.apache.maven.skins</groupId>
+        <artifactId>maven-stylus-skin</artifactId>
+        <version>1.0.1</version>
+    </skin>
+</project>

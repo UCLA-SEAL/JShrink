@@ -1,0 +1,380 @@
+/* Calendar panel, that holds the appointment */
+.gwt-cal {
+    position: relative;
+    height: 527px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+.gwt-cal .major-time-interval {
+    display: block;
+    background: #FFF4BC;
+    border-top: 1px solid #EAD098;
+    width: 100%;
+}
+
+.gwt-cal .minor-time-interval {
+    display: block;
+    background: #FFF4BC;
+    border-top: 1px solid #F3E4B1;
+    width: 100%;
+}
+
+.gwt-cal .working-hours {
+    background: #FFFFD5;
+}
+
+.gwt-cal .hour-label {
+    width: 50px;
+    color: #8F8F8F;
+    font-family: arial;
+    font-size: 12px;
+    display: block;
+    position:relative;
+    border-top:1px solid #ACA899;
+    background:#EAEAEA;
+}
+
+
+.gwt-cal .hour-label .hour-layout {
+    position:absolute;top:50%;left:0px;margin-top:-0.5em;line-height:1; text-align:center;width:100%;
+}
+
+.gwt-cal .hour-text {
+    display:inline; 
+    font-family:Tahoma; font-size:20px;color:#000;text-transform:lowercase;font-weight:normal;
+}
+
+.gwt-cal .ampm-text {
+    display:inline;
+    font-family:Tahoma; font-size:11px;color:#000;text-transform:lowercase;font-weight:normal;vertical-align:super;
+}
+
+
+.gwt-cal .gwt-appointment-panel {
+	position: relative;
+	height: 1200px;
+}
+
+.gwt-cal .gwt-appointment-cell {
+	width: 99%;
+}
+
+.gwt-cal .scroll-area {
+	*height: 0px; /* required for IE7 */
+	-height: 0px; /* required for IE6 */
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+
+.gwt-cal .day-separator {
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0%;
+    border-left: 1px solid #ACA899;
+    width: 1px;
+}
+
+.gwt-cal .time-strip {
+    /*padding-top: 43px;*/
+    white-space: nowrap;
+    width: 50px;
+}
+
+/* Calendar header */
+.gwt-cal .gwt-calendar-header {
+    background: #EAEAEA;
+    width: 100%;
+    border-bottom: 1px solid #BEBEBE;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+/*.gwt-calendar-header table { width:100%;table-layout:fixed; border-collapse:collapse; }
+*/
+.gwt-cal .gwt-calendar-header .year-cell {
+    width: 50px;
+    font-family: arial;
+    font-size: 12px;
+    text-align: center;
+    font-weight: normal;
+    background:#EAEAEA;
+}
+
+.gwt-cal .gwt-calendar-header .day-cell-container {
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+    background:#EAEAEA;
+}
+
+.gwt-cal .gwt-calendar-header .day-cell {
+    border-left: 1px solid #C1C1C1;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    text-align: center;
+    font-family: arial;
+    font-size: 12px;
+    padding-top: 2px;
+    font-weight: normal;
+    background:#EAEAEA;
+}
+
+.gwt-cal .gwt-calendar-header .day-cell-today {
+    border-left: 1px solid #C1C1C1;
+    position: absolute;
+    background: #EAEAEA;
+    top: 0px;
+    height: 100%;
+    text-align: center;
+    font-family: arial;
+    font-size: 12px;
+    padding-top: 2px;
+    font-weight: bold;
+}
+
+.gwt-cal .gwt-calendar-header .splitter {
+    height: 1px;
+    background: #000000;
+}
+
+.gwt-cal .gwt-calendar-header .day-separator {
+	border-left: 1px solid #000;
+}
+
+
+
+
+
+
+/* Appointment panels, that get rendered to the screen as Div's (Primary Style) */
+.gwt-appointment {
+    position: absolute;
+    font-size: 11px;
+    font-family: arial;
+    border: 1px solid #000;
+    overflow: hidden;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    background:#FFF;
+}
+
+.gwt-cal .gwt-appointment .header {
+    white-space: nowrap;
+    overflow: hidden;
+    color: #000;
+    padding: 1px;
+    padding-left: 8px;
+}
+
+.gwt-cal .gwt-appointment .body {
+    padding-left: 8px;
+    padding-top: 1px;
+    white-space: wrap;
+}
+
+.gwt-cal .gwt-appointment .footer {
+    border-bottom: 2px dotted #FFF;
+    position: absolute;
+    bottom: 2px;
+    left: 4%;
+    height: 4px;
+    width: 92%;
+}
+
+.gwt-cal .gwt-appointment .icons {
+    white-space: nowrap;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: transparent;
+    width: 55px;
+    height: 12px;
+    color: #FFF;
+}
+
+.gwt-cal .gwt-appointment .timeline {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background: #FFF;
+    border-right: 1px solid #000;
+    width: 5px;
+}
+
+.gwt-cal .gwt-appointment .timeline-fill {
+    background: blue url(diagonol-line-pattern.gif);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+}
+
+
+.gwt-cal .gwt-appointment-selected {
+    -webkit-box-shadow: 3px 3px 5px #666;
+    -moz-box-shadow: 3px 3px 5px #666;
+    border-top:3px solid blue;
+    border-bottom:3px solid blue;
+}
+
+
+.gwt-cal .gwt-appointment-green {
+    border: 1px solid #000;
+    background: #FFF;
+    color: #000;
+}
+
+
+
+.gwt-cal .gwt-appointment-selected.gwt-appointment-green .header {
+    background: #FFF;
+    color: #000;
+    font-weight:normal;
+}
+
+.gwt-cal .gwt-appointment-selected.gwt-appointment-green .footer {
+    border-bottom: 2px dotted #FFF;
+}
+
+.gwt-cal .gwt-appointment-green .timeline-fill {
+    background-color: #blue;
+}
+
+
+
+.gwt-cal .gwt-appointment-blue {
+    border: 1px solid #000;
+    background: #FFF;
+    color: #000;
+}
+
+.gwt-cal .gwt-appointment-selected.gwt-appointment-blue .header {
+    background: #FFF;
+    color: #000;
+    
+}
+
+.gwt-cal .gwt-appointment-selected.gwt-appointment-blue .footer {
+    border-bottom: 2px dotted #FFF;
+}
+
+.gwt-cal .gwt-appointment-blue .timeline-fill {
+    background-color: blue;
+}
+
+
+.gwt-cal .gwt-appointment.gwt-appointment-green.gwt-appointment-selected {
+    border-top:4px solid blue;
+    border-bottom:4px solid blue;
+}
+
+
+
+
+
+/* Multi-day appointment section */
+.gwt-cal .multiDayBody {
+    width:100%;
+    background: rgb(128,128,128);
+    table-layout: fixed;
+}
+
+.gwt-cal .multiDayBody .splitter {
+    height: 1px;
+    background: #000000;
+}
+
+.gwt-cal .leftEmptyCell {
+    background: #EAEAEA;
+    width:50px;
+}
+.gwt-cal .rightEmptyCell {
+    background: #EAEAEA;
+}
+
+
+
+
+/* multi-day appointments have no footer */
+.gwt-cal .multiDayBody .gwt-appointment .footer,
+.gwt-cal .multiDayBody .gwt-appointment-selected .footer {
+	display:none;
+}
+
+
+
+
+
+
+
+
+/* Month View here */
+.gwt-cal-MonthView {
+	position: relative;
+	height: 523px;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100%;
+	overflow: hidden;
+}
+
+.gwt-cal-MonthView .grid {table-layout:fixed;background:#FFF4BC;width:100%;height:100%;border-collapse:collapse;}
+.gwt-cal-MonthView .canvas {white-space:nowrap;overflow:hidden;position:absolute;top:0px;left:0px;width:100%;height:100%;font-family:arial;font-size:12px;background: transparent;}
+
+.gwt-cal-MonthView .dayCell,
+.gwt-cal-MonthView .dayCell-today { border-left: 1px solid #C1C1C1;border-bottom: 1px solid #C1C1C1;  }
+
+.gwt-cal-MonthView .weekDayLabel, 
+.gwt-cal-MonthView .weekDayLabel-today { height:20px; text-align:center;background-color: #EAEAEA;font-size:13px;color:#000; border-left: 1px solid #C1C1C1;border-bottom: 1px solid #C1C1C1;}
+.gwt-Cal-MonthView .dayCellLabel,
+.gwt-Cal-MonthView .dayCellLabel-today { background-color: transparent; display:block;height:15px;font-family:arial;font-size:11px;text-align:right;padding-right:5px; }
+.gwt-Cal-MonthView .dayCellLabel-today-disabled,
+.gwt-Cal-MonthView .dayCellLabel-disabled { background-color: transparent; display:block;height:15px;font-family:arial;font-size:11px;text-align:right;padding-right:5px; color:#999; }
+
+.gwt-Cal-MonthView .dayCellLabel-today,
+.gwt-Cal-MonthView .dayCellLabel-today-disabled { background-color: #C1C1C1; }
+.gwt-cal-MonthView .dayCell-today {   background-color: rgb(255, 255, 204);}
+
+.gwt-cal-MonthView .moreAppointments { position:absolute;text-align:center;text-decoration:underline;}
+
+/* Month View Appointment Styles */
+.gwt-cal-MonthView .appointment { 
+	position:absolute;
+	height:20px; 
+	overflow:hidden;
+	text-decoration:none;
+	border: 1px solid #000;
+    background: #FFF;
+    color: #000;
+}
+.gwt-cal-MonthView .multiDayAppointment {
+	position:absolute;
+	height:20px; 
+	overflow:hidden;
+	border: 1px solid #000;
+    background: #FFF;
+    color: #000;
+}
+.gwt-cal-MonthView .appointment.selected{
+    border-top:3px solid blue;
+    border-bottom:3px solid blue;
+    height:16px;
+    -height:20px;
+    *height:20px;
+}
+.gwt-cal-MonthView .selected.multiDayAppointment  { 
+    border-top:3px solid blue;
+    border-bottom:3px solid blue;
+    height:16px;
+    -height:20px;
+    *height:20px;
+}
