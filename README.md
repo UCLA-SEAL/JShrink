@@ -21,7 +21,6 @@ This project was developed by Professor [Miryung Kim](http://web.cs.ucla.edu/~mi
 
 [Miryung Kim](http://web.cs.ucla.edu/~miryung/): Professor at UCLA, miryung@cs.ucla.edu;
 
-[Miryung Kim](http://web.cs.ucla.edu/~miryung/): Professor at UCLA; miryung@cs.ucla.edu
 
 Please visit [UCLA Java Bytecode Debloating](https://github.com/jdebloat).
 
