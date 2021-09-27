@@ -9,7 +9,19 @@ To this end, we develop an end-to-end bytecode debloating framework called JShri
 technical challenges that must be handled properly and examine behavior preservation of debloated software via regression testing. We find that (1) JShrink is able to debloat our real-world Java benchmark suite by up to 47% (14% on average); (2) accounting for dynamic language features is indeed crucial to ensure behavior preservation—reducing 98% of test failures incurred by a purely static equivalent, Jax, and 84% for ProGuard; and (3) compared with purely dynamic approaches, integrating static analysis with dynamic profiling makes the debloated software more robust to unseen test executions—in 22 out of 26 projects, the debloated software ran successfully under new tests.
 
 ## Team 
-This project was developed by Professor [Miryung Kim](http://web.cs.ucla.edu/~miryung/)'s Software Engineering and Analysis Laboratory. It was done when [Bobby R. Bruce](https://www.bobbybruce.net/) was a postdoc, and [Tianyi Zhang](https://tianyi-zhang.github.io/) was a PhD student at UCLA.
+This project was developed by Professor [Miryung Kim](http://web.cs.ucla.edu/~miryung/)'s Software Engineering and Analysis Laboratory. The main contributors are [Bobby R. Bruce](https://www.bobbybruce.net/) was a postdoc, and [Tianyi Zhang](https://tianyi-zhang.github.io/) was a PhD student at UCLA.
+
+[Bobby Bruce](https://www.bobbybruce.net/): was a postdoc, now a research scientist at UC Davis; 
+
+[Tianyi Zhang](https://https://tianyi-zhang.github.io): was a PhD student at UCLA and now an assistant professor at Purdue; tianyi@purdue.edu
+
+[Jaspreet Arora](https://www.linkedin.com/in/jasarora): was a MS student at UCLA, and now a Software Engineeri at Amazon; 
+
+[Guoqing Harry Xu](http://web.cs.ucla.edu/~harryxu/): Professor at UCLA, harryxu@cs.ucla.edu;
+
+[Miryung Kim](http://web.cs.ucla.edu/~miryung/): Professor at UCLA, miryung@cs.ucla.edu;
+
+[Miryung Kim](http://web.cs.ucla.edu/~miryung/): Professor at UCLA; miryung@cs.ucla.edu
 
 Please visit [UCLA Java Bytecode Debloating](https://github.com/jdebloat).
 
